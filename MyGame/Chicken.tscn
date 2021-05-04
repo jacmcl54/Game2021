@@ -1,0 +1,30 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://ChickenWalk.tres" type="Animation" id=1]
+[ext_resource path="res://Chick_LBrown.png" type="Texture" id=2]
+[ext_resource path="res://Chicken.gd" type="Script" id=3]
+[ext_resource path="res://BeginIdle.tres" type="Animation" id=4]
+[ext_resource path="res://Idle.tres" type="Animation" id=5]
+
+[sub_resource type="CapsuleShape2D" id=1]
+radius = 30.0
+height = 10.0
+
+[node name="Chicken" type="Area2D"]
+script = ExtResource( 3 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( -0.0407982, 0.338104 )
+scale = Vector2( 2.09375, 2.09375 )
+texture = ExtResource( 2 )
+hframes = 4
+vframes = 4
+frame = 3
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+anims/BeginIdle = ExtResource( 4 )
+anims/ChickenWalk = ExtResource( 1 )
+anims/Idle = ExtResource( 5 )
