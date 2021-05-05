@@ -1,7 +1,7 @@
 extends Area2D
 
 var moving = false
-export var SPEED = 100
+export var SPEED = 75
 
 func _process(delta):
 	moving = false
@@ -17,7 +17,7 @@ func _process(delta):
 	if moving:
 		$AnimationPlayer.play("ChickenWalk")
 	else:
-		$AnimationPlayer.play("BeginIdle")
+		$AnimationPlayer.play("Idle")
 
 func move(xspeed, yspeed, delta, flip = false):
 	position.x += xspeed * delta

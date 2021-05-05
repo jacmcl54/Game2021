@@ -2,7 +2,7 @@
 
 [resource]
 resource_name = "Idle"
-length = 0.1
+length = 5.0
 tracks/0/type = "value"
 tracks/0/path = NodePath("Sprite:frame")
 tracks/0/interp = 1
@@ -10,8 +10,8 @@ tracks/0/loop_wrap = true
 tracks/0/imported = false
 tracks/0/enabled = true
 tracks/0/keys = {
-"times": PoolRealArray( 0 ),
-"transitions": PoolRealArray( 1 ),
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 2.2, 2.3, 2.4, 2.5, 4.6 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
 "update": 1,
-"values": [ 11 ]
+"values": [ 8, 9, 10, 11, 11, 10, 9, 8, 8 ]
 }
