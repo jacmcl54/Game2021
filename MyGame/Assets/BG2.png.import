@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Chick_DBrown.png-bbe49fa3490df07751e192a530a8afc0.stex"
+path="res://.import/BG2.png-aa3d2a8f3284be7a7f7a9d68ec4e8067.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Chick_DBrown.png"
-dest_files=[ "res://.import/Chick_DBrown.png-bbe49fa3490df07751e192a530a8afc0.stex" ]
+source_file="res://Assets/BG2.png"
+dest_files=[ "res://.import/BG2.png-aa3d2a8f3284be7a7f7a9d68ec4e8067.stex" ]
 
 [params]
 

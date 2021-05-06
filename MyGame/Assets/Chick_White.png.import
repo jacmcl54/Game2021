@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Chick_Black.png-1d094adba0b697231cc5d30ddaa1c869.stex"
+path="res://.import/Chick_White.png-83d448da068f28088d830a31cc515fb4.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Chick_Black.png"
-dest_files=[ "res://.import/Chick_Black.png-1d094adba0b697231cc5d30ddaa1c869.stex" ]
+source_file="res://Assets/Chick_White.png"
+dest_files=[ "res://.import/Chick_White.png-83d448da068f28088d830a31cc515fb4.stex" ]
 
 [params]
 

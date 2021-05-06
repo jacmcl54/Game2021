@@ -1,9 +1,9 @@
 [gd_scene load_steps=6 format=2]
 
-[ext_resource path="res://ChickenWalk.tres" type="Animation" id=1]
-[ext_resource path="res://Chick_LBrown.png" type="Texture" id=2]
-[ext_resource path="res://Chicken.gd" type="Script" id=3]
-[ext_resource path="res://Idle.tres" type="Animation" id=5]
+[ext_resource path="res://Animations/ChickenWalk.tres" type="Animation" id=1]
+[ext_resource path="res://Assets/Chick_LBrown.png" type="Texture" id=2]
+[ext_resource path="res://Scripts/Chicken.gd" type="Script" id=3]
+[ext_resource path="res://Animations/Idle.tres" type="Animation" id=5]
 
 [sub_resource type="CapsuleShape2D" id=1]
 radius = 32.0
@@ -19,7 +19,6 @@ shape = SubResource( 1 )
 position = Vector2( -0.0407982, 0.338104 )
 scale = Vector2( 2.09375, 2.09375 )
 texture = ExtResource( 2 )
-flip_h = true
 hframes = 4
 vframes = 4
 frame = 8
