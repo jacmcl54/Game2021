@@ -6,14 +6,11 @@
 [ext_resource path="res://Animations/Idle.tres" type="Animation" id=5]
 
 [sub_resource type="CapsuleShape2D" id=1]
-radius = 32.0
-height = 10.0
+radius = 20.7093
+height = 1.83615
 
 [node name="Chicken" type="KinematicBody2D"]
 script = ExtResource( 3 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="."]
 position = Vector2( -0.0407982, 0.338104 )
@@ -35,6 +32,29 @@ limit_smoothed = true
 smoothing_enabled = true
 editor_draw_limits = true
 editor_draw_drag_margin = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource( 1 )
+
+[node name="Raycasts" type="Node2D" parent="."]
+
+[node name="RayCast2D" type="RayCast2D" parent="Raycasts"]
+position = Vector2( 24, 55 )
+enabled = true
+cast_to = Vector2( 0, 16 )
+collision_mask = 3
+
+[node name="RayCast2D2" type="RayCast2D" parent="Raycasts"]
+position = Vector2( 0, 55 )
+enabled = true
+cast_to = Vector2( 0, 16 )
+collision_mask = 3
+
+[node name="RayCast2D3" type="RayCast2D" parent="Raycasts"]
+position = Vector2( -24, 55 )
+enabled = true
+cast_to = Vector2( 0, 16 )
+collision_mask = 3
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 anims/ChickenWalk = ExtResource( 1 )

@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://Scenes/Chicken.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Assets/BG1.png" type="Texture" id=2]
 [ext_resource path="res://Assets/BG3.png" type="Texture" id=3]
+[ext_resource path="res://Scenes/Level.tscn" type="PackedScene" id=4]
 
 [node name="World" type="Node"]
 
@@ -42,3 +43,18 @@ position = Vector2( 508, 270 )
 
 [node name="TileMap" type="TileMap" parent="."]
 format = 1
+
+[node name="Grass2" parent="." instance=ExtResource( 4 )]
+position = Vector2( 288.743, 491.803 )
+
+[node name="Grass" parent="." instance=ExtResource( 4 )]
+position = Vector2( 129.291, 492.743 )
+
+[node name="Grass3" parent="." instance=ExtResource( 4 )]
+position = Vector2( 470.582, 489.568 )
+
+[node name="Grass4" parent="." instance=ExtResource( 4 )]
+position = Vector2( 688.056, 484.806 )
+
+[node name="Grass5" parent="." instance=ExtResource( 4 )]
+position = Vector2( 864.258, 480.043 )
