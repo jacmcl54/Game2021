@@ -41,20 +41,29 @@ __meta__ = {
 [node name="Chicken" parent="." instance=ExtResource( 1 )]
 position = Vector2( 508, 270 )
 
-[node name="TileMap" type="TileMap" parent="."]
-format = 1
+[node name="Grass" parent="." instance=ExtResource( 4 )]
+position = Vector2( 83.27, 368.86 )
 
 [node name="Grass2" parent="." instance=ExtResource( 4 )]
-position = Vector2( 288.743, 491.803 )
-
-[node name="Grass" parent="." instance=ExtResource( 4 )]
-position = Vector2( 129.291, 492.743 )
+position = Vector2( 286.899, 372.7 )
 
 [node name="Grass3" parent="." instance=ExtResource( 4 )]
-position = Vector2( 470.582, 489.568 )
+position = Vector2( 512, 372.7 )
 
 [node name="Grass4" parent="." instance=ExtResource( 4 )]
-position = Vector2( 688.056, 484.806 )
+position = Vector2( 705.372, 372.7 )
 
 [node name="Grass5" parent="." instance=ExtResource( 4 )]
-position = Vector2( 864.258, 480.043 )
+position = Vector2( 886.482, 372.7 )
+
+[node name="Grass6" parent="." instance=ExtResource( 4 )]
+position = Vector2( 388.289, 562.141 )
+
+[node name="Grass7" parent="." instance=ExtResource( 4 )]
+position = Vector2( 612.173, 562.141 )
+
+[node name="Grass8" parent="." instance=ExtResource( 4 )]
+position = Vector2( 167.175, 562.141 )
+
+[node name="Grass9" parent="." instance=ExtResource( 4 )]
+position = Vector2( 799.461, 562.141 )

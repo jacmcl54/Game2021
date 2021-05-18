@@ -18,11 +18,11 @@ scale = Vector2( 1.5, 1.5 )
 texture = ExtResource( 2 )
 hframes = 4
 vframes = 4
-frame = 8
+frame = 11
 
 [node name="Camera2D" type="Camera2D" parent="Sprite"]
 current = true
-zoom = Vector2( 0.5, 0.5 )
+zoom = Vector2( 0.65, 0.65 )
 process_mode = 0
 limit_left = 0
 limit_top = 0
@@ -34,6 +34,7 @@ editor_draw_limits = true
 editor_draw_drag_margin = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 0, -0.264866 )
 shape = SubResource( 1 )
 
 [node name="Raycasts" type="Node2D" parent="."]
