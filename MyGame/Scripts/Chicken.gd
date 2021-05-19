@@ -1,5 +1,7 @@
 extends KinematicBody2D
 
+#V1----------------------------------
+
 #var moving = false
 #export var SPEED = 75
 #
@@ -29,6 +31,8 @@ extends KinematicBody2D
 #func _ready():
 #	pass
 
+#V2----------------------------------
+
 const UP = Vector2(0, -1)
 const SLOPE_STOP = 64
 
@@ -39,6 +43,7 @@ var jump_velocty = -600
 var is_grounded
 var anim_player
 var moving = false
+var facing_right = true
 
 onready var raycasts = $Raycasts
 
@@ -50,17 +55,21 @@ func _physics_process(delta):
 	if moving:
 		$AnimationPlayer.play("ChickenWalk")
 	else:
-		$AnimationPlayer.play("ChickenWalk")
+		$AnimationPlayer.play("Idle")
+	if facing_right == true:
+		$Sprite.scale.x = 1
+	else:
+		$Sprite.scale.x = -1
 
 func _input(event):
 	if event.is_action_pressed("jump") && is_grounded:
 		velocity.y = jump_velocty
 
-func _get_input(_flip = false):
+func _get_input():
 	var move_direction = -int(Input.is_action_pressed("ui_left")) + int(Input.is_action_pressed("ui_right"))
 	velocity.x = lerp(velocity.x, move_speed * move_direction, _get_h_weight())
 	#if move_direction != 0:
-	#	$Sprite.scale.x = move_direction
+		#$Sprite.scale.x = move_direction
 
 func _get_h_weight():
 	return 0.2 if is_grounded else 0.1
@@ -71,7 +80,8 @@ func _check_is_grounded():
 			return true
 	return false
 
-func move(xspeed, yspeed, delta, _flip = false):
-	position.x += xspeed * delta
-	position.y += yspeed * delta
-	moving = true
+#func move(xspeed, yspeed, delta, _flip = false):
+#	position.x += xspeed * delta
+#	position.y += yspeed * delta
+#	moving = true
+
