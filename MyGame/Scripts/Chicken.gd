@@ -10,7 +10,7 @@ const ACCEL = 20
 var motion = Vector2()
 var facing_right = true
 
-func _physics_process(_delta):
+func _physics_process(delta):
 	
 	motion.y += GRAVITY
 	if motion.y > MAXFALLSPEED:
