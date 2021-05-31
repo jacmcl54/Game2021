@@ -4,7 +4,6 @@
 [ext_resource path="res://onewaytesting.tres" type="TileSet" id=2]
 
 [sub_resource type="StreamTexture" id=1]
-load_path = "res://.import/BG1.png-5a59daa2850c37e1d282b8e535569fb6.stex"
 
 [node name="Node2D" type="Node"]
 
