@@ -22,19 +22,6 @@ hframes = 4
 vframes = 4
 frame = 8
 
-[node name="Camera2D" type="Camera2D" parent="Sprite"]
-current = true
-zoom = Vector2( 0.62, 0.62 )
-process_mode = 0
-limit_left = 0
-limit_top = 0
-limit_right = 9999999
-limit_bottom = 600
-limit_smoothed = true
-smoothing_enabled = true
-editor_draw_limits = true
-editor_draw_drag_margin = true
-
 [node name="AnimationPlayer" type="AnimationPlayer" parent="Sprite"]
 anims/Fall = ExtResource( 4 )
 anims/Idle = ExtResource( 5 )
