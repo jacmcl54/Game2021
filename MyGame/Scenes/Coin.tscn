@@ -1,0 +1,26 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Assets/Coin_Gems/01coin.png" type="Texture" id=1]
+[ext_resource path="res://Animations/CoinIdle.tres" type="Animation" id=2]
+[ext_resource path="res://Animations/CoinTaken.tres" type="Animation" id=3]
+[ext_resource path="res://Scripts/Coin.gd" type="Script" id=4]
+
+[sub_resource type="CircleShape2D" id=2]
+
+[node name="Coin" type="Area2D"]
+script = ExtResource( 4 )
+
+[node name="Sprite" type="Sprite" parent="."]
+scale = Vector2( 0.2, 0.2 )
+texture = ExtResource( 1 )
+hframes = 8
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource( 2 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+autoplay = "CoinIdle"
+anims/CoinIdle = ExtResource( 2 )
+anims/CoinTaken = ExtResource( 3 )
+
+[connection signal="body_entered" from="." to="." method="_on_Coin_body_entered"]
