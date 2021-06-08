@@ -5,7 +5,7 @@
 [ext_resource path="res://Animations/CoinTaken.tres" type="Animation" id=3]
 [ext_resource path="res://Scripts/Coin.gd" type="Script" id=4]
 
-[sub_resource type="CircleShape2D" id=2]
+[sub_resource type="CircleShape2D" id=1]
 
 [node name="Coin" type="Area2D"]
 script = ExtResource( 4 )
@@ -16,7 +16,7 @@ texture = ExtResource( 1 )
 hframes = 8
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 autoplay = "CoinIdle"

@@ -7,6 +7,7 @@ const MAXSPEED = 150
 const JUMPFORCE = 350
 const ACCEL = 20
 
+var coins = 0
 var motion = Vector2()
 var facing_right = true
 
@@ -45,3 +46,9 @@ func _physics_process(_delta):
 			$Sprite/AnimationPlayer.play("Fall")
 	
 	motion = move_and_slide(motion, UP)
+	
+	if coins == 3:
+		get_tree().reload_current_scene()
+
+func add_coin():
+	coins = coins + 1
