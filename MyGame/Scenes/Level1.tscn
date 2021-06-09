@@ -1,0 +1,123 @@
+[gd_scene load_steps=12 format=2]
+
+[ext_resource path="res://Scenes/Chicken.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scenes/Coin.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Scripts/CloudLayer.gd" type="Script" id=3]
+[ext_resource path="res://Assets/Tilesets/nonCollisionForest.tres" type="TileSet" id=4]
+[ext_resource path="res://Assets/Tilesets/Forest Tileset/BG/3.png" type="Texture" id=5]
+[ext_resource path="res://Assets/Tilesets/Forest Tileset/BG/2.png" type="Texture" id=6]
+[ext_resource path="res://Assets/Tilesets/Forest Tileset/BG/4.png" type="Texture" id=7]
+[ext_resource path="res://Assets/Tilesets/Forest Tileset/BG/1.png" type="Texture" id=8]
+[ext_resource path="res://Assets/Tilesets/OneWayForest.tres" type="TileSet" id=9]
+[ext_resource path="res://Assets/Tilesets/SolidForest.tres" type="TileSet" id=10]
+
+[sub_resource type="SegmentShape2D" id=1]
+b = Vector2( -0.03125, 599.147 )
+
+[node name="Level1" type="Node"]
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_mirroring = Vector2( 250, 0 )
+
+[node name="Sprite" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
+position = Vector2( 128.105, 275.539 )
+scale = Vector2( 3.15382, 3.15382 )
+texture = ExtResource( 8 )
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2( 0, 1 )
+motion_mirroring = Vector2( 250, 0 )
+script = ExtResource( 3 )
+
+[node name="Sprite" type="Sprite" parent="ParallaxBackground/ParallaxLayer2"]
+position = Vector2( 128.105, 275.539 )
+scale = Vector2( 3.15382, 3.15382 )
+texture = ExtResource( 6 )
+
+[node name="ParallaxLayer3" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2( 0.25, 1 )
+motion_mirroring = Vector2( 250, 0 )
+
+[node name="Sprite" type="Sprite" parent="ParallaxBackground/ParallaxLayer3"]
+position = Vector2( 128.105, 275.539 )
+scale = Vector2( 3.15382, 3.15382 )
+texture = ExtResource( 5 )
+
+[node name="ParallaxLayer4" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2( 0.75, 1 )
+motion_mirroring = Vector2( 250, 0 )
+
+[node name="Sprite" type="Sprite" parent="ParallaxBackground/ParallaxLayer4"]
+position = Vector2( 128.105, 275.539 )
+scale = Vector2( 3.15382, 3.15382 )
+texture = ExtResource( 7 )
+
+[node name="NonSolidTiles" type="TileMap" parent="."]
+scale = Vector2( 2, 2 )
+tile_set = ExtResource( 4 )
+cell_size = Vector2( 16, 16 )
+format = 1
+tile_data = PoolIntArray( 786432, 8, 0, 786433, 8, 0, 786434, 8, 0, 786435, 8, 0, 786436, 9, 0, 851968, 8, 0, 851969, 8, 0, 851970, 8, 0, 851971, 8, 0, 851972, 9, 0, 917504, 8, 0, 917505, 8, 0, 917506, 8, 0, 917507, 8, 0, 917508, 9, 0, 983040, 8, 0, 983041, 8, 0, 983042, 8, 0, 983043, 8, 0, 983044, 9, 0, 1048576, 8, 0, 1048577, 8, 0, 1048578, 8, 0, 1048579, 8, 0, 1048580, 9, 0 )
+
+[node name="OneWayTiles" type="TileMap" parent="."]
+scale = Vector2( 2, 2 )
+tile_set = ExtResource( 9 )
+cell_size = Vector2( 16, 16 )
+format = 1
+tile_data = PoolIntArray( 65562, 0, 0, 65563, 1, 0, 65564, 1, 0, 65565, 1, 0, 65566, 1, 0, 65567, 2, 0, 196630, 0, 0, 196631, 2, 0, 393231, 0, 0, 393232, 1, 0, 393233, 1, 0, 393234, 1, 0, 393235, 1, 0, 393236, 2, 0, 524299, 0, 0, 524300, 2, 0, 655367, 0, 0, 655368, 2, 0, 720896, 1, 0, 720897, 1, 0, 720898, 1, 0, 720899, 1, 0, 720900, 2, 0, 851968, 12, 0, 851969, 13, 0, 983042, 12, 0, 983043, 13, 0, 1114112, 1, 0, 1114113, 1, 0, 1114114, 1, 0, 1114115, 1, 0, 1114116, 1, 0, 1114117, 1, 0, 1114118, 1, 0, 1114119, 1, 0, 1114120, 1, 0, 1114121, 1, 0, 1114122, 1, 0, 1114123, 1, 0, 1114124, 1, 0, 1114125, 1, 0, 1114126, 1, 0, 1114127, 1, 0, 1114128, 1, 0, 1114129, 1, 0, 1114130, 1, 0, 1114131, 1, 0, 1114132, 1, 0, 1114133, 1, 0, 1114134, 1, 0, 1114135, 1, 0, 1114136, 1, 0, 1114137, 1, 0, 1114138, 1, 0, 1114139, 1, 0, 1114140, 1, 0, 1114141, 1, 0, 1114142, 1, 0, 1114143, 1, 0, 1114144, 1, 0, 1114145, 1, 0, 1114146, 1, 0, 1114147, 1, 0, 1114148, 1, 0, 1114149, 1, 0, 1114150, 1, 0, 1114151, 1, 0, 1114152, 1, 0, 1114153, 1, 0, 1114154, 1, 0, 1114155, 1, 0, 1114156, 1, 0, 1114157, 1, 0, 1114158, 1, 0, 1114159, 1, 0, 1114160, 1, 0, 1114161, 1, 0, 1114162, 1, 0, 1114163, 1, 0, 1114164, 1, 0, 1114165, 1, 0, 1114166, 1, 0, 1114167, 1, 0, 1114168, 1, 0, 1114169, 1, 0, 1114170, 1, 0, 1114171, 1, 0, 1114172, 1, 0, 1114173, 1, 0, 1114174, 1, 0, 1114175, 1, 0, 1114176, 1, 0, 1114177, 1, 0, 1114178, 1, 0, 1114179, 1, 0, 1114180, 1, 0, 1114181, 1, 0, 1114182, 1, 0, 1114183, 1, 0, 1114184, 1, 0, 1114185, 1, 0, 1114186, 1, 0, 1114187, 1, 0, 1114188, 1, 0, 1114189, 1, 0, 1114190, 1, 0, 1114191, 1, 0, 1179648, 8, 0, 1179649, 8, 0, 1179650, 8, 0, 1179651, 8, 0, 1179652, 8, 0, 1179653, 8, 0, 1179654, 8, 0, 1179655, 8, 0, 1179656, 8, 0, 1179657, 8, 0, 1179658, 8, 0, 1179659, 8, 0, 1179660, 8, 0, 1179661, 8, 0, 1179662, 8, 0, 1179663, 8, 0, 1179664, 8, 0, 1179665, 8, 0, 1179666, 8, 0, 1179667, 8, 0, 1179668, 8, 0, 1179669, 8, 0, 1179670, 8, 0, 1179671, 8, 0, 1179672, 8, 0, 1179673, 8, 0, 1179674, 8, 0, 1179675, 8, 0, 1179676, 8, 0, 1179677, 8, 0, 1179678, 8, 0, 1179679, 8, 0, 1179680, 8, 0, 1179681, 8, 0, 1179682, 8, 0, 1179683, 8, 0, 1179684, 8, 0, 1179685, 8, 0, 1179686, 8, 0, 1179687, 8, 0, 1179688, 8, 0, 1179689, 8, 0, 1179690, 8, 0, 1179691, 8, 0, 1179692, 8, 0, 1179693, 8, 0, 1179694, 8, 0, 1179695, 8, 0, 1179696, 8, 0, 1179697, 8, 0, 1179698, 8, 0, 1179699, 8, 0, 1179700, 8, 0, 1179701, 8, 0, 1179702, 8, 0, 1179703, 8, 0, 1179704, 8, 0, 1179705, 8, 0, 1179706, 8, 0, 1179707, 8, 0, 1179708, 8, 0, 1179709, 8, 0, 1179710, 8, 0, 1179711, 8, 0, 1179712, 8, 0, 1179713, 8, 0, 1179714, 8, 0, 1179715, 8, 0, 1179716, 8, 0, 1179717, 8, 0, 1179718, 8, 0, 1179719, 8, 0, 1179720, 8, 0, 1179721, 8, 0, 1179722, 8, 0, 1179723, 8, 0, 1179724, 8, 0, 1179725, 8, 0, 1179726, 8, 0, 1179727, 8, 0 )
+
+[node name="SolidTiles" type="TileMap" parent="."]
+scale = Vector2( 2, 2 )
+tile_set = ExtResource( 10 )
+cell_size = Vector2( 16, 16 )
+format = 1
+tile_data = PoolIntArray( 131098, 14, 0, 131099, 15, 0, 131100, 15, 0, 131101, 15, 0, 131102, 15, 0, 131103, 16, 0, 262166, 14, 0, 262167, 16, 0, 458767, 14, 0, 458768, 15, 0, 458769, 15, 0, 458770, 15, 0, 458771, 15, 0, 458772, 16, 0, 589835, 14, 0, 589836, 16, 0, 720903, 14, 0, 720904, 16, 0 )
+
+[node name="Coins" type="Area2D" parent="."]
+
+[node name="Coin" parent="Coins" instance=ExtResource( 2 )]
+position = Vector2( 973.467, 18.4268 )
+
+[node name="Coin2" parent="Coins" instance=ExtResource( 2 )]
+position = Vector2( 794.815, 354.157 )
+
+[node name="Coin3" parent="Coins" instance=ExtResource( 2 )]
+position = Vector2( 794.815, 297.092 )
+
+[node name="Coin4" parent="Coins" instance=ExtResource( 2 )]
+position = Vector2( 600.643, 171.491 )
+
+[node name="Coin5" parent="Coins" instance=ExtResource( 2 )]
+position = Vector2( 256.564, 297.092 )
+
+[node name="Coin6" parent="Coins" instance=ExtResource( 2 )]
+position = Vector2( 794.815, 323.514 )
+
+[node name="LeftWorldBorder" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="LeftWorldBorder"]
+shape = SubResource( 1 )
+
+[node name="RightWorldBorder" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RightWorldBorder"]
+position = Vector2( 1023.08, -0.540516 )
+shape = SubResource( 1 )
+
+[node name="Chicken" parent="." instance=ExtResource( 1 )]
+position = Vector2( 70.3718, 323.514 )
+
+[node name="Camera2D" type="Camera2D" parent="Chicken"]
+current = true
+zoom = Vector2( 0.62, 0.62 )
+process_mode = 0
+limit_left = 0
+limit_top = 0
+limit_right = 9999999
+limit_bottom = 600
+limit_smoothed = true
+smoothing_enabled = true
+editor_draw_limits = true
+editor_draw_drag_margin = true
