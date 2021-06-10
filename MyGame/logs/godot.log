@@ -1,0 +1,1766 @@
+Godot Engine v3.3.2.stable.official - https://godotengine.org
+OpenGL ES 3.0 Renderer: Intel(R) UHD Graphics 630
+OpenGL ES Batching: ON
+ 
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'right'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'left'.
+   At: main/input_default.cpp:102:is_action_pressed() - Condition "!has_action" is true. Returned: false
+**ERROR**: Request for nonexistent InputMap action 'jump'.
+   At: main/input_default.cpp:110:is_action_just_pressed() - Condition "!has_action" is true. Returned: false

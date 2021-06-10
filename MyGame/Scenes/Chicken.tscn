@@ -20,9 +20,10 @@ scale = Vector2( 1.16516, 1.16516 )
 texture = ExtResource( 2 )
 hframes = 4
 vframes = 4
-frame = 8
+frame = 12
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="Sprite"]
+autoplay = "Jump"
 anims/Fall = ExtResource( 4 )
 anims/Idle = ExtResource( 5 )
 anims/Jump = ExtResource( 6 )
