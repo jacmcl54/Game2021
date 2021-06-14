@@ -78,21 +78,6 @@ format = 1
 [node name="Coin" parent="Coins" instance=ExtResource( 8 )]
 position = Vector2( 252.467, 336.427 )
 
-[node name="Coin2" parent="Coins" instance=ExtResource( 8 )]
-position = Vector2( 309.815, 387.391 )
-
-[node name="Coin3" parent="Coins" instance=ExtResource( 8 )]
-position = Vector2( 204.148, 337.597 )
-
-[node name="Coin4" parent="Coins" instance=ExtResource( 8 )]
-position = Vector2( 311.643, 330.491 )
-
-[node name="Coin5" parent="Coins" instance=ExtResource( 8 )]
-position = Vector2( 202.564, 387.092 )
-
-[node name="Coin6" parent="Coins" instance=ExtResource( 8 )]
-position = Vector2( 258.837, 386.834 )
-
 [node name="LeftWorldBorder" type="StaticBody2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="LeftWorldBorder"]
@@ -105,7 +90,7 @@ position = Vector2( 1023.08, -0.540516 )
 shape = SubResource( 1 )
 
 [node name="Chicken" parent="." instance=ExtResource( 1 )]
-position = Vector2( 70.3718, 323.514 )
+position = Vector2( 30.3718, 519.514 )
 
 [node name="Camera2D" type="Camera2D" parent="Chicken"]
 current = true
