@@ -47,8 +47,9 @@ func _physics_process(_delta):
 	
 	motion = move_and_slide(motion, UP)
 	
-	if coins == 3:
-		get_tree().reload_current_scene()
+	
 
 func add_coin():
 	coins = coins + 1
+	if coins == 3:
+		get_tree().reload_current_scene()

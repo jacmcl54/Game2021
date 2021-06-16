@@ -12,3 +12,4 @@ func _on_Coin_body_entered(body):
 func _ready():
 	$AnimationPlayer.play("CoinIdle")
 
+#video at 23:56

@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=2]
+[gd_scene load_steps=19 format=2]
 
 [ext_resource path="res://Scenes/Chicken.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Scenes/Coin.tscn" type="PackedScene" id=2]
@@ -12,6 +12,8 @@
 [ext_resource path="res://Assets/Tilesets/SolidForest.tres" type="TileSet" id=10]
 [ext_resource path="res://Assets/Fonts/BalsamiqSans-Bold.ttf" type="DynamicFontData" id=11]
 [ext_resource path="res://Assets/Coin_Gems/hudcoin-removebg-preview (1).png" type="Texture" id=12]
+[ext_resource path="res://Assets/Fonts/DelaGothicOne-Regular.ttf" type="DynamicFontData" id=13]
+[ext_resource path="res://Scenes/CoinHUD.gd" type="Script" id=14]
 
 [sub_resource type="SegmentShape2D" id=1]
 b = Vector2( -0.03125, 599.147 )
@@ -24,8 +26,14 @@ corner_radius_bottom_right = 15
 corner_radius_bottom_left = 14
 
 [sub_resource type="DynamicFont" id=3]
-size = 35
+size = 30
+use_filter = true
 font_data = ExtResource( 11 )
+
+[sub_resource type="DynamicFont" id=4]
+size = 25
+use_filter = true
+font_data = ExtResource( 13 )
 
 [node name="Level1" type="Node"]
 
@@ -35,8 +43,8 @@ font_data = ExtResource( 11 )
 motion_mirroring = Vector2( 250, 0 )
 
 [node name="Sprite" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
-position = Vector2( 125.624, 278.485 )
-scale = Vector2( 3.15382, 3.15382 )
+position = Vector2( 128, 278.498 )
+scale = Vector2( 3.15382, 3.17089 )
 texture = ExtResource( 8 )
 
 [node name="ParallaxLayer2" type="ParallaxLayer" parent="ParallaxBackground"]
@@ -88,15 +96,15 @@ cell_size = Vector2( 16, 16 )
 format = 1
 tile_data = PoolIntArray( 196634, 0, 0, 196635, 1, 0, 196636, 1, 0, 196637, 1, 0, 196638, 1, 0, 196639, 2, 0, 262166, 0, 0, 262167, 2, 0, 262170, 14, 0, 262171, 15, 0, 262172, 15, 0, 262173, 15, 0, 262174, 15, 0, 262175, 16, 0, 327702, 14, 0, 327703, 16, 0, 393231, 0, 0, 393232, 1, 0, 393233, 1, 0, 393234, 1, 0, 393235, 1, 0, 393236, 2, 0, 458767, 14, 0, 458768, 15, 0, 458769, 15, 0, 458770, 15, 0, 458771, 15, 0, 458772, 16, 0, 524299, 0, 0, 524300, 2, 0, 589835, 14, 0, 589836, 16, 0, 655367, 0, 0, 655368, 2, 0, 720903, 14, 0, 720904, 16, 0 )
 
-[node name="Coins" type="Area2D" parent="."]
+[node name="LevelCoins" type="Area2D" parent="."]
 
-[node name="Coin" parent="Coins" instance=ExtResource( 2 )]
+[node name="Coin" parent="LevelCoins" instance=ExtResource( 2 )]
 position = Vector2( 964.648, 73.8633 )
 
-[node name="Coin4" parent="Coins" instance=ExtResource( 2 )]
+[node name="Coin4" parent="LevelCoins" instance=ExtResource( 2 )]
 position = Vector2( 600.643, 171.491 )
 
-[node name="Coin5" parent="Coins" instance=ExtResource( 2 )]
+[node name="Coin5" parent="LevelCoins" instance=ExtResource( 2 )]
 position = Vector2( 256.564, 297.092 )
 
 [node name="LeftWorldBorder" type="StaticBody2D" parent="."]
@@ -126,9 +134,10 @@ smoothing_enabled = true
 editor_draw_limits = true
 editor_draw_drag_margin = true
 
-[node name="Coin HUD" type="CanvasLayer" parent="."]
+[node name="CoinHUD" type="CanvasLayer" parent="."]
+script = ExtResource( 14 )
 
-[node name="Panel" type="Panel" parent="Coin HUD"]
+[node name="Panel" type="Panel" parent="CoinHUD"]
 margin_left = 12.0
 margin_top = 12.0
 margin_right = 121.0
@@ -138,7 +147,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="TextureRect" type="TextureRect" parent="Coin HUD"]
+[node name="TextureRect" type="TextureRect" parent="CoinHUD"]
 margin_left = 12.0
 margin_top = 12.0
 margin_right = 132.0
@@ -150,13 +159,27 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Label" type="Label" parent="Coin HUD"]
-margin_left = 56.8409
-margin_top = 13.7387
-margin_right = 72.8409
-margin_bottom = 56.7387
+[node name="x" type="Label" parent="CoinHUD"]
+margin_left = 55.5969
+margin_top = 16.5102
+margin_right = 70.5969
+margin_bottom = 52.5102
 custom_fonts/font = SubResource( 3 )
+custom_colors/font_color = Color( 0.968627, 0.835294, 0.211765, 1 )
 text = "x"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CoinNumber" type="Label" parent="CoinHUD"]
+margin_left = 70.5969
+margin_top = 15.8802
+margin_right = 116.597
+margin_bottom = 52.8802
+custom_fonts/font = SubResource( 4 )
+custom_colors/font_color = Color( 0.968627, 0.835294, 0.211765, 1 )
+text = "##"
+valign = 1
 __meta__ = {
 "_edit_use_anchors_": false
 }
