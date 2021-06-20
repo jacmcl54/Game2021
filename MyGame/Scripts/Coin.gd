@@ -1,15 +1,10 @@
 extends Area2D
 
+signal coin_collected
+
 func _on_Coin_body_entered(body):
-	var bodies = get_overlapping_bodies()
-	for body in bodies:
-		if body.name == "Chicken":
-			$AnimationPlayer.play("CoinTaken")
-			yield($AnimationPlayer, "animation_finished")
-			queue_free()
-	body.add_coin()
+	$AnimationPlayer.play("CoinTaken")
+	emit_signal("coin_collected")
 
-func _ready():
-	$AnimationPlayer.play("CoinIdle")
-
-#video at 23:56
+func _on_AnimationPlayer_animation_finished(anim_name):
+	queue_free()

@@ -13,7 +13,7 @@
 [ext_resource path="res://Assets/Fonts/BalsamiqSans-Bold.ttf" type="DynamicFontData" id=11]
 [ext_resource path="res://Assets/Coin_Gems/hudcoin-removebg-preview (1).png" type="Texture" id=12]
 [ext_resource path="res://Assets/Fonts/DelaGothicOne-Regular.ttf" type="DynamicFontData" id=13]
-[ext_resource path="res://Scenes/CoinHUD.gd" type="Script" id=14]
+[ext_resource path="res://Scripts/CoinHUD.gd" type="Script" id=14]
 
 [sub_resource type="SegmentShape2D" id=1]
 b = Vector2( -0.03125, 599.147 )
@@ -96,17 +96,6 @@ cell_size = Vector2( 16, 16 )
 format = 1
 tile_data = PoolIntArray( 196634, 0, 0, 196635, 1, 0, 196636, 1, 0, 196637, 1, 0, 196638, 1, 0, 196639, 2, 0, 262166, 0, 0, 262167, 2, 0, 262170, 14, 0, 262171, 15, 0, 262172, 15, 0, 262173, 15, 0, 262174, 15, 0, 262175, 16, 0, 327702, 14, 0, 327703, 16, 0, 393231, 0, 0, 393232, 1, 0, 393233, 1, 0, 393234, 1, 0, 393235, 1, 0, 393236, 2, 0, 458767, 14, 0, 458768, 15, 0, 458769, 15, 0, 458770, 15, 0, 458771, 15, 0, 458772, 16, 0, 524299, 0, 0, 524300, 2, 0, 589835, 14, 0, 589836, 16, 0, 655367, 0, 0, 655368, 2, 0, 720903, 14, 0, 720904, 16, 0 )
 
-[node name="LevelCoins" type="Area2D" parent="."]
-
-[node name="Coin" parent="LevelCoins" instance=ExtResource( 2 )]
-position = Vector2( 964.648, 73.8633 )
-
-[node name="Coin4" parent="LevelCoins" instance=ExtResource( 2 )]
-position = Vector2( 600.643, 171.491 )
-
-[node name="Coin5" parent="LevelCoins" instance=ExtResource( 2 )]
-position = Vector2( 256.564, 297.092 )
-
 [node name="LeftWorldBorder" type="StaticBody2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="LeftWorldBorder"]
@@ -183,3 +172,21 @@ valign = 1
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="Coins" type="Node2D" parent="."]
+
+[node name="Coin1" parent="Coins" instance=ExtResource( 2 )]
+position = Vector2( 256, 296 )
+
+[node name="Coin2" parent="Coins" instance=ExtResource( 2 )]
+position = Vector2( 576, 168 )
+
+[node name="Coin3" parent="Coins" instance=ExtResource( 2 )]
+position = Vector2( 896, 72 )
+
+[connection signal="coin_collected" from="Coins/Coin1" to="CoinHUD" method="_on_Coin_collected"]
+[connection signal="coin_collected" from="Coins/Coin1" to="CoinHUD" method="_on_coin_collected"]
+[connection signal="coin_collected" from="Coins/Coin2" to="CoinHUD" method="_on_Coin_collected"]
+[connection signal="coin_collected" from="Coins/Coin2" to="CoinHUD" method="_on_coin_collected"]
+[connection signal="coin_collected" from="Coins/Coin3" to="CoinHUD" method="_on_Coin_collected"]
+[connection signal="coin_collected" from="Coins/Coin3" to="CoinHUD" method="_on_coin_collected"]

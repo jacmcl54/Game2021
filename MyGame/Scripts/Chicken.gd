@@ -46,10 +46,4 @@ func _physics_process(_delta):
 			$Sprite/AnimationPlayer.play("Fall")
 	
 	motion = move_and_slide(motion, UP)
-	
-	
 
-func add_coin():
-	coins = coins + 1
-	if coins == 3:
-		get_tree().reload_current_scene()
