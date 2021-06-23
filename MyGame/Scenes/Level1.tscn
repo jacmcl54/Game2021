@@ -107,6 +107,17 @@ shape = SubResource( 1 )
 position = Vector2( 1023.08, -0.540516 )
 shape = SubResource( 1 )
 
+[node name="Coins" type="Node2D" parent="."]
+
+[node name="Coin1" parent="Coins" instance=ExtResource( 2 )]
+position = Vector2( 256, 296 )
+
+[node name="Coin2" parent="Coins" instance=ExtResource( 2 )]
+position = Vector2( 630, 173 )
+
+[node name="Coin3" parent="Coins" instance=ExtResource( 2 )]
+position = Vector2( 896, 72 )
+
 [node name="Chicken" parent="." instance=ExtResource( 1 )]
 position = Vector2( 70.3718, 323.514 )
 
@@ -127,20 +138,20 @@ editor_draw_drag_margin = true
 script = ExtResource( 14 )
 
 [node name="Panel" type="Panel" parent="CoinHUD"]
-margin_left = 12.0
+margin_left = 13.1225
 margin_top = 12.0
-margin_right = 121.0
-margin_bottom = 60.0
+margin_right = 122.122
+margin_bottom = 62.0
 custom_styles/panel = SubResource( 2 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="TextureRect" type="TextureRect" parent="CoinHUD"]
-margin_left = 12.0
-margin_top = 12.0
-margin_right = 132.0
-margin_bottom = 132.0
+margin_left = 13.1225
+margin_top = 13.1225
+margin_right = 133.122
+margin_bottom = 133.122
 rect_scale = Vector2( 0.4, 0.4 )
 texture = ExtResource( 12 )
 stretch_mode = 1
@@ -150,9 +161,9 @@ __meta__ = {
 
 [node name="x" type="Label" parent="CoinHUD"]
 margin_left = 55.5969
-margin_top = 16.5102
+margin_top = 17.6327
 margin_right = 70.5969
-margin_bottom = 52.5102
+margin_bottom = 53.6327
 custom_fonts/font = SubResource( 3 )
 custom_colors/font_color = Color( 0.968627, 0.835294, 0.211765, 1 )
 text = "x"
@@ -161,10 +172,10 @@ __meta__ = {
 }
 
 [node name="CoinNumber" type="Label" parent="CoinHUD"]
-margin_left = 70.5969
-margin_top = 15.8802
-margin_right = 116.597
-margin_bottom = 52.8802
+margin_left = 71.7194
+margin_top = 16.5102
+margin_right = 117.719
+margin_bottom = 53.5102
 custom_fonts/font = SubResource( 4 )
 custom_colors/font_color = Color( 0.968627, 0.835294, 0.211765, 1 )
 text = "##"
@@ -172,17 +183,6 @@ valign = 1
 __meta__ = {
 "_edit_use_anchors_": false
 }
-
-[node name="Coins" type="Node2D" parent="."]
-
-[node name="Coin1" parent="Coins" instance=ExtResource( 2 )]
-position = Vector2( 256, 296 )
-
-[node name="Coin2" parent="Coins" instance=ExtResource( 2 )]
-position = Vector2( 576, 168 )
-
-[node name="Coin3" parent="Coins" instance=ExtResource( 2 )]
-position = Vector2( 896, 72 )
 
 [connection signal="coin_collected" from="Coins/Coin1" to="CoinHUD" method="_on_Coin_collected"]
 [connection signal="coin_collected" from="Coins/Coin1" to="CoinHUD" method="_on_coin_collected"]
