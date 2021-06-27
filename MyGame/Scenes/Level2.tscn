@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=2]
+[gd_scene load_steps=13 format=2]
 
 [ext_resource path="res://Scenes/Chicken.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Assets/Tilesets/OneWayForest.tres" type="TileSet" id=2]
@@ -10,11 +10,12 @@
 [ext_resource path="res://Scenes/Coin.tscn" type="PackedScene" id=8]
 [ext_resource path="res://Assets/Tilesets/nonCollisionForest.tres" type="TileSet" id=9]
 [ext_resource path="res://Assets/Tilesets/SolidForest.tres" type="TileSet" id=10]
+[ext_resource path="res://Scenes/CoinHUD.tscn" type="PackedScene" id=11]
 
 [sub_resource type="SegmentShape2D" id=1]
 b = Vector2( -0.03125, 599.147 )
 
-[node name="Level1" type="Node"]
+[node name="Level2" type="Node"]
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
 
@@ -73,11 +74,6 @@ tile_set = ExtResource( 10 )
 cell_size = Vector2( 16, 16 )
 format = 1
 
-[node name="Coins" type="Area2D" parent="."]
-
-[node name="Coin" parent="Coins" instance=ExtResource( 8 )]
-position = Vector2( 252.467, 336.427 )
-
 [node name="LeftWorldBorder" type="StaticBody2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="LeftWorldBorder"]
@@ -88,6 +84,13 @@ shape = SubResource( 1 )
 [node name="CollisionShape2D" type="CollisionShape2D" parent="RightWorldBorder"]
 position = Vector2( 1023.08, -0.540516 )
 shape = SubResource( 1 )
+
+[node name="Coins" type="Node2D" parent="."]
+
+[node name="Coin1" parent="Coins" groups=[
+"Global",
+] instance=ExtResource( 8 )]
+position = Vector2( 140.647, 502.922 )
 
 [node name="Chicken" parent="." instance=ExtResource( 1 )]
 position = Vector2( 30.3718, 519.514 )
@@ -104,3 +107,7 @@ limit_smoothed = true
 smoothing_enabled = true
 editor_draw_limits = true
 editor_draw_drag_margin = true
+
+[node name="CoinHUD" parent="." instance=ExtResource( 11 )]
+
+[connection signal="coin_collected" from="Coins/Coin1" to="CoinHUD" method="_on_coin_collected"]
