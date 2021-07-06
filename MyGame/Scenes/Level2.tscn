@@ -73,6 +73,7 @@ scale = Vector2( 2, 2 )
 tile_set = ExtResource( 10 )
 cell_size = Vector2( 16, 16 )
 format = 1
+tile_data = PoolIntArray( 851980, 0, 0, 851981, 2, 0, 917513, 0, 0, 917514, 2, 0, 983046, 0, 0, 983047, 2, 0 )
 
 [node name="LeftWorldBorder" type="StaticBody2D" parent="."]
 

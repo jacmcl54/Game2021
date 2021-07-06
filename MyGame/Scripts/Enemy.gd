@@ -23,4 +23,4 @@ func _physics_process(delta):
 	
 	velocity = move_and_slide(velocity, Vector2.UP)
 
-#VIDEO AT 49:35
+#VIDEO AT 

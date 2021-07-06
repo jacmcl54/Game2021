@@ -109,7 +109,7 @@ position = Vector2( 593, 166 )
 [node name="Coin3" parent="Coins" groups=[
 "Global",
 ] instance=ExtResource( 2 )]
-position = Vector2( 976, 72 )
+position = Vector2( 978.832, 69.1684 )
 
 [node name="Chicken" parent="." instance=ExtResource( 1 )]
 position = Vector2( 70.3718, 323.514 )
@@ -132,11 +132,12 @@ editor_draw_drag_margin = true
 [node name="Enemies" type="Node2D" parent="."]
 
 [node name="Enemy1" parent="Enemies" instance=ExtResource( 12 )]
-position = Vector2( 231.023, 424.989 )
+position = Vector2( 227.375, 457.387 )
 
 [node name="Enemy2" parent="Enemies" instance=ExtResource( 12 )]
-position = Vector2( 299.493, 423.866 )
+position = Vector2( 564.569, 144.99 )
 direction = 1
+detects_cliffs = true
 
 [connection signal="coin_collected" from="Coins/Coin1" to="CoinHUD" method="_on_coin_collected"]
 [connection signal="coin_collected" from="Coins/Coin2" to="CoinHUD" method="_on_coin_collected"]
