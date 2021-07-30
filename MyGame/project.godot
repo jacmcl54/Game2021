@@ -19,7 +19,7 @@ config/icon="res://Assets/Other/icon.png"
 
 [display]
 
-window/size/test_width=800
+window/size/test_width=400
 window/size/test_height=600
 
 [input]

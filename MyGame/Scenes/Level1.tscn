@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=2]
+[gd_scene load_steps=16 format=2]
 
 [ext_resource path="res://Scenes/Chicken.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Scenes/Coin.tscn" type="PackedScene" id=2]
@@ -12,6 +12,7 @@
 [ext_resource path="res://Assets/Tilesets/SolidForest.tres" type="TileSet" id=10]
 [ext_resource path="res://Scenes/CoinHUD.tscn" type="PackedScene" id=11]
 [ext_resource path="res://Scenes/Enemy.tscn" type="PackedScene" id=12]
+[ext_resource path="res://Assets/Sprites/miscellaneous sprites/wooden_plate.png" type="Texture" id=13]
 [ext_resource path="res://Scenes/Spikes.tscn" type="PackedScene" id=14]
 
 [sub_resource type="SegmentShape2D" id=1]
@@ -127,6 +128,11 @@ position = Vector2( 1985.89, 303.143 )
 ] instance=ExtResource( 2 )]
 position = Vector2( 2422.48, 72.0683 )
 
+[node name="sign" type="Sprite" parent="."]
+position = Vector2( 134.385, 325.599 )
+scale = Vector2( 3.25991, 3.36502 )
+texture = ExtResource( 13 )
+
 [node name="Chicken" parent="." instance=ExtResource( 1 )]
 position = Vector2( 79.2359, 297.437 )
 
@@ -136,7 +142,7 @@ zoom = Vector2( 0.64, 0.64 )
 process_mode = 0
 limit_left = 0
 limit_top = 0
-limit_right = 9999999
+limit_right = 2600
 limit_bottom = 600
 limit_smoothed = true
 smoothing_enabled = true
@@ -148,10 +154,14 @@ editor_draw_drag_margin = true
 [node name="Enemies" type="Node2D" parent="."]
 
 [node name="Enemy1" parent="Enemies" instance=ExtResource( 12 )]
-position = Vector2( 227.375, 457.387 )
+position = Vector2( 473.059, 519.123 )
 
 [node name="Enemy2" parent="Enemies" instance=ExtResource( 12 )]
-position = Vector2( 569.331, 156.102 )
+position = Vector2( 624, 160 )
+direction = 1
+
+[node name="Enemy3" parent="Enemies" instance=ExtResource( 12 )]
+position = Vector2( 2184, 504 )
 direction = 1
 
 [node name="Spikes" type="Node2D" parent="."]
@@ -159,25 +169,25 @@ position = Vector2( 1652.91, 521.676 )
 scale = Vector2( 0.48, 0.48 )
 
 [node name="Spike" parent="Spikes" instance=ExtResource( 14 )]
-position = Vector2( -1.48608, 1.04968 )
+position = Vector2( -10.229, -2.6226e-06 )
 scale = Vector2( 1, 1 )
 collision_layer = 2
 collision_mask = 17
 
 [node name="Spike2" parent="Spikes" instance=ExtResource( 14 )]
-position = Vector2( 92.0525, 1.04968 )
+position = Vector2( 89.7708, -2.6226e-06 )
 scale = Vector2( 1, 1 )
 collision_layer = 2
 collision_mask = 17
 
 [node name="Spike3" parent="Spikes" instance=ExtResource( 14 )]
-position = Vector2( 184.136, 1.04968 )
+position = Vector2( 189.771, -2.6226e-06 )
 scale = Vector2( 1, 1 )
 collision_layer = 2
 collision_mask = 17
 
 [node name="Spike4" parent="Spikes" instance=ExtResource( 14 )]
-position = Vector2( 396.191, 0.223022 )
+position = Vector2( 389.771, 0.223022 )
 scale = Vector2( 1, 1 )
 collision_layer = 2
 collision_mask = 17
@@ -189,25 +199,7 @@ collision_layer = 2
 collision_mask = 17
 
 [node name="Spike6" parent="Spikes" instance=ExtResource( 14 )]
-position = Vector2( 581.813, 0.223022 )
-scale = Vector2( 1, 1 )
-collision_layer = 2
-collision_mask = 17
-
-[node name="Spike7" parent="Spikes" instance=ExtResource( 14 )]
-position = Vector2( -1438.57, 0 )
-scale = Vector2( 1, 1 )
-collision_layer = 2
-collision_mask = 17
-
-[node name="Spike8" parent="Spikes" instance=ExtResource( 14 )]
-position = Vector2( -1345.03, 0 )
-scale = Vector2( 1, 1 )
-collision_layer = 2
-collision_mask = 17
-
-[node name="Spike9" parent="Spikes" instance=ExtResource( 14 )]
-position = Vector2( -1252.95, 0 )
+position = Vector2( 589.771, 0.223022 )
 scale = Vector2( 1, 1 )
 collision_layer = 2
 collision_mask = 17
