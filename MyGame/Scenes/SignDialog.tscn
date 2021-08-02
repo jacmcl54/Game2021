@@ -1,18 +1,39 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=3 format=2]
 
-[sub_resource type="StyleBoxFlat" id=1]
-bg_color = Color( 0.396078, 0.184314, 0.184314, 1 )
+[ext_resource path="res://Scripts/SignDialog.gd" type="Script" id=1]
+[ext_resource path="res://Assets/Other/HUD Text Box.png" type="Texture" id=2]
 
-[sub_resource type="DynamicFont" id=2]
+[node name="CanvasLayer" type="CanvasLayer"]
+script = ExtResource( 1 )
 
-[sub_resource type="Theme" id=3]
-default_font = SubResource( 2 )
-PopupDialog/styles/panel = SubResource( 1 )
+[node name="NinePatchRect" type="NinePatchRect" parent="."]
+margin_right = 1016.0
+margin_bottom = 104.0
+texture = ExtResource( 2 )
+patch_margin_left = 28
+patch_margin_top = 34
+patch_margin_right = 26
+patch_margin_bottom = 27
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
-[node name="SignMenu" type="PopupMenu"]
-margin_right = 12.0
-margin_bottom = 20.0
-theme = SubResource( 3 )
+[node name="Message" type="RichTextLabel" parent="NinePatchRect"]
+margin_left = 32.0
+margin_top = 40.0
+margin_right = 568.0
+margin_bottom = 168.0
+text = "Message"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Name" type="RichTextLabel" parent="NinePatchRect"]
+margin_left = 24.0
+margin_top = 16.0
+margin_right = 296.0
+margin_bottom = 32.0
+text = "Name"
 __meta__ = {
 "_edit_use_anchors_": false
 }
