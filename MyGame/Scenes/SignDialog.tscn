@@ -1,13 +1,23 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://Scripts/SignDialog.gd" type="Script" id=1]
 [ext_resource path="res://Assets/Other/HUD Text Box.png" type="Texture" id=2]
+[ext_resource path="res://Assets/Fonts/BalsamiqSans-Bold.ttf" type="DynamicFontData" id=3]
+[ext_resource path="res://Assets/Fonts/DelaGothicOne-Regular.ttf" type="DynamicFontData" id=4]
+[ext_resource path="res://Assets/Other/E with arrow.png" type="Texture" id=5]
+
+[sub_resource type="DynamicFont" id=1]
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=2]
+font_data = ExtResource( 4 )
 
 [node name="CanvasLayer" type="CanvasLayer"]
 script = ExtResource( 1 )
+dialogue_file = "res://Scripts/GameControls.json"
 
 [node name="NinePatchRect" type="NinePatchRect" parent="."]
-margin_right = 1016.0
+margin_right = 400.0
 margin_bottom = 104.0
 texture = ExtResource( 2 )
 patch_margin_left = 28
@@ -18,21 +28,33 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
+[node name="TextureRect" type="TextureRect" parent="NinePatchRect"]
+margin_left = 360.0
+margin_top = 64.0
+margin_right = 392.0
+margin_bottom = 96.0
+texture = ExtResource( 5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
 [node name="Message" type="RichTextLabel" parent="NinePatchRect"]
-margin_left = 32.0
+margin_left = 16.0
 margin_top = 40.0
-margin_right = 568.0
-margin_bottom = 168.0
+margin_right = 320.0
+margin_bottom = 88.0
+custom_fonts/normal_font = SubResource( 1 )
 text = "Message"
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="Name" type="RichTextLabel" parent="NinePatchRect"]
-margin_left = 24.0
-margin_top = 16.0
-margin_right = 296.0
-margin_bottom = 32.0
+margin_left = 16.0
+margin_top = 8.0
+margin_right = 400.0
+margin_bottom = 48.0
+custom_fonts/normal_font = SubResource( 2 )
 text = "Name"
 __meta__ = {
 "_edit_use_anchors_": false
