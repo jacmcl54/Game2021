@@ -1,18 +1,18 @@
 [gd_scene load_steps=8 format=2]
 
-[ext_resource path="res://Scripts/SignDialog.gd" type="Script" id=1]
+[ext_resource path="res://Scripts/DialoguePlayer.gd" type="Script" id=1]
 [ext_resource path="res://Assets/Other/HUD Text Box.png" type="Texture" id=2]
-[ext_resource path="res://Assets/Fonts/BalsamiqSans-Bold.ttf" type="DynamicFontData" id=3]
-[ext_resource path="res://Assets/Fonts/DelaGothicOne-Regular.ttf" type="DynamicFontData" id=4]
-[ext_resource path="res://Assets/Other/E with arrow.png" type="Texture" id=5]
+[ext_resource path="res://Assets/Other/E with arrow.png" type="Texture" id=3]
+[ext_resource path="res://Assets/Fonts/BalsamiqSans-Bold.ttf" type="DynamicFontData" id=4]
+[ext_resource path="res://Assets/Fonts/DelaGothicOne-Regular.ttf" type="DynamicFontData" id=5]
 
 [sub_resource type="DynamicFont" id=1]
-font_data = ExtResource( 3 )
-
-[sub_resource type="DynamicFont" id=2]
 font_data = ExtResource( 4 )
 
-[node name="CanvasLayer" type="CanvasLayer"]
+[sub_resource type="DynamicFont" id=2]
+font_data = ExtResource( 5 )
+
+[node name="DialoguePlayer" type="CanvasLayer"]
 script = ExtResource( 1 )
 dialogue_file = "res://Scripts/GameControls.json"
 
@@ -33,7 +33,7 @@ margin_left = 360.0
 margin_top = 64.0
 margin_right = 392.0
 margin_bottom = 96.0
-texture = ExtResource( 5 )
+texture = ExtResource( 3 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
