@@ -97,6 +97,12 @@ shape = SubResource( 1 )
 position = Vector2( 2556.17, -1.99716 )
 shape = SubResource( 1 )
 
+[node name="InstructionDialogue" parent="." instance=ExtResource( 15 )]
+position = Vector2( 136, 336 )
+scale = Vector2( 0.68, 0.68 )
+
+[node name="DialoguePlayer" parent="InstructionDialogue" instance=ExtResource( 13 )]
+
 [node name="Coins" type="Node2D" parent="."]
 
 [node name="Coin1" parent="Coins" groups=[
@@ -129,11 +135,7 @@ position = Vector2( 1985.89, 303.143 )
 ] instance=ExtResource( 2 )]
 position = Vector2( 2422.48, 72.0683 )
 
-[node name="InstructionDialogue" parent="." instance=ExtResource( 15 )]
-position = Vector2( 136, 336 )
-scale = Vector2( 0.68, 0.68 )
-
-[node name="DialoguePlayer" parent="InstructionDialogue" instance=ExtResource( 13 )]
+[node name="CoinHUD" parent="." instance=ExtResource( 11 )]
 
 [node name="Chicken" parent="." instance=ExtResource( 1 )]
 position = Vector2( 79.2359, 297.437 )
@@ -150,8 +152,6 @@ limit_smoothed = true
 smoothing_enabled = true
 editor_draw_limits = true
 editor_draw_drag_margin = true
-
-[node name="CoinHUD" parent="." instance=ExtResource( 11 )]
 
 [node name="Enemies" type="Node2D" parent="."]
 
