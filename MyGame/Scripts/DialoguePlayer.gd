@@ -6,6 +6,9 @@ var dialogues = []
 var current_dialogue_id = 0
 var is_dialogue_active = false
 
+signal BoxActive
+signal BoxFinished
+
 func _ready():
 	$NinePatchRect.visible = false
 
@@ -15,9 +18,10 @@ func play():
 
 	dialogues = load_dialogue()
 
-	turn_off_the_player()
+#	turn_off_the_player()
 	is_dialogue_active = true
 	$NinePatchRect.visible = true
+	emit_signal("BoxActive")
 	current_dialogue_id = -1
 	next_line()
 
@@ -31,12 +35,12 @@ func _input(event):
 func next_line():
 	current_dialogue_id += 1
 	if current_dialogue_id >= len(dialogues):
-		$Timer.start()
 		$NinePatchRect.visible = false
-		turn_on_the_player()
+		emit_signal("BoxFinished")
+#		turn_on_the_player()
 		return
 
-	$NinePatchRect/Name.text = dialogues[current_dialogue_id]["name"]	
+	$NinePatchRect/Name.text = dialogues[current_dialogue_id]["name"]
 	$NinePatchRect/Message.text = dialogues[current_dialogue_id]["text"]
 
 func load_dialogue():
@@ -45,16 +49,12 @@ func load_dialogue():
 		file.open(dialogue_file, file.READ)
 		return parse_json(file.get_as_text())
 
-func _on_Timer_timeout():
-	is_dialogue_active = false
+#func turn_on_the_player():
+#	var player = get_tree().get_root().find_node("Player", true, false)
+#	if player:
+#		player.set_active(true)
 
-func turn_on_the_player():
-	var player = get_tree().get_root().find_node("Player", true, false)
-	if player:
-		player.set_active(true)
-
-func turn_off_the_player():
-	var player = get_tree().get_root().find_node("Player", true, false)
-	if player:
-		player.set_active(false)
-
+#func turn_off_the_player():
+#	var player = get_tree().get_root().find_node("Player", true, false)
+#	if player:
+#		player.set_active(false)

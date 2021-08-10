@@ -21,3 +21,15 @@ func _on_coin_collected():
 	coins = coins + 1
 	_ready()
 
+func _on_BoxActive():
+	$Panel.visible = false
+	$TextureRect.visible = false
+	$x.visible = false
+	$CoinNumber.visible = false
+
+
+func _on_BoxFinished():
+	$Panel.visible = true
+	$TextureRect.visible = true
+	$x.visible = true
+	$CoinNumber.visible = true
