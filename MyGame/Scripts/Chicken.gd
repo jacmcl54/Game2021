@@ -33,6 +33,7 @@ func _physics_process(_delta):
 		facing_right = false
 		$Sprite/AnimationPlayer.play("Walk")
 	elif Input.is_action_pressed("restart"):
+		OS.set_window_title("MyGame - Restarting level")
 		get_tree().reload_current_scene()
 	elif Input.is_action_pressed("quit"):
 		get_tree().quit()
