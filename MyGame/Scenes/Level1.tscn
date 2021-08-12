@@ -94,7 +94,7 @@ shape = SubResource( 1 )
 [node name="RightWorldBorder" type="StaticBody2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="RightWorldBorder"]
-position = Vector2( 2556.17, -1.99716 )
+position = Vector2( 2560, -1.99716 )
 shape = SubResource( 1 )
 
 [node name="InstructionDialogue" parent="." instance=ExtResource( 15 )]
