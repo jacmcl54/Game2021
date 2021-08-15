@@ -10,9 +10,7 @@ func _physics_process(delta):
 		OS.set_window_title("MyGame - Level 1")
 		if coins == 6:
 			yield(get_tree().create_timer(0.5), "timeout")
-			get_tree().reload_current_scene()
-#			get_tree().change_scene("res://Scenes/Level2.tscn")
-			print("3/3 coins collected, swtiching to next level.")
+			get_tree().change_scene("res://Scenes/Level2.tscn")
 			OS.alert("Congratulations, you passed the first stage!")
 	if get_tree().current_scene.name == "Level2":
 		OS.set_window_title("MyGame - Level 2")
