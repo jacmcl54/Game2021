@@ -101,6 +101,7 @@ position = Vector2( 136, 336 )
 scale = Vector2( 0.68, 0.68 )
 
 [node name="DialoguePlayer" parent="InstructionDialogue" instance=ExtResource( 13 )]
+dialogue_file = "res://Scripts/Lvl1info.json"
 
 [node name="Coins" type="Node2D" parent="."]
 

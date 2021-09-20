@@ -14,7 +14,12 @@ func _physics_process(delta):
 			OS.alert("Congratulations, you passed the first stage!")
 	if get_tree().current_scene.name == "Level2":
 		OS.set_window_title("MyGame - Level 2")
-		if coins == 1:
+		if coins == 3:
+			yield(get_tree().create_timer(0.5), "timeout")
+			get_tree().change_scene("res://Scenes/Level3.tscn")
+	if get_tree().current_scene.name == "Level3":
+		OS.set_window_title("MyGame - Level 3")
+		if coins == 3:
 			yield(get_tree().create_timer(0.5), "timeout")
 			get_tree().change_scene("res://Scenes/Level1.tscn")
 
