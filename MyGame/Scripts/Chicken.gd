@@ -24,6 +24,7 @@ func _physics_process(_delta):
 	
 	motion.x = clamp(motion.x,-MAXSPEED,MAXSPEED)
 	
+	#Movement
 	if Input.is_action_pressed("right"):
 		motion.x += ACCEL
 		facing_right = true
@@ -33,7 +34,6 @@ func _physics_process(_delta):
 		facing_right = false
 		$Sprite/AnimationPlayer.play("Walk")
 	elif Input.is_action_pressed("restart"):
-		OS.set_window_title("MyGame - Restarting level")
 		get_tree().reload_current_scene()
 	elif Input.is_action_pressed("quit"):
 		get_tree().quit()
@@ -44,6 +44,7 @@ func _physics_process(_delta):
 		if Input.is_action_just_pressed("jump"):
 			motion.y = -JUMPFORCE
 	
+	#Detects if chicken is on floor to play jump and fall animations
 	if !is_on_floor():
 		if motion.y < 0:
 			$Sprite/AnimationPlayer.play("Jump")

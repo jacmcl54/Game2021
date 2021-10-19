@@ -18,6 +18,7 @@ config/name="MyGame"
 
 [display]
 
+window/size/width=400
 window/size/test_width=400
 window/size/test_height=600
 

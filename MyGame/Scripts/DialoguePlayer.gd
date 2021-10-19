@@ -48,13 +48,3 @@ func load_dialogue():
 	if file.file_exists(dialogue_file):
 		file.open(dialogue_file, file.READ)
 		return parse_json(file.get_as_text())
-
-#func turn_on_the_player():
-#	var player = get_tree().get_root().find_node("Player", true, false)
-#	if player:
-#		player.set_active(true)
-
-#func turn_off_the_player():
-#	var player = get_tree().get_root().find_node("Player", true, false)
-#	if player:
-#		player.set_active(false)

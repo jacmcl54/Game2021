@@ -1,0 +1,141 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://Assets/Fonts/KiriFont.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://Assets/UI/Rkey.png" type="Texture" id=2]
+[ext_resource path="res://Assets/UI/Ekey.png" type="Texture" id=3]
+[ext_resource path="res://Assets/UI/Esckey.png" type="Texture" id=4]
+[ext_resource path="res://Assets/Fonts/Sniglet-Regular.ttf" type="DynamicFontData" id=5]
+
+[sub_resource type="DynamicFont" id=1]
+size = 50
+outline_size = 3
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 1 )
+
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 0.0627451, 0.25098, 0.0627451, 1 )
+corner_radius_top_right = 10
+
+[sub_resource type="DynamicFont" id=3]
+outline_color = Color( 0.701961, 0.258824, 0.258824, 1 )
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=4]
+size = 19
+font_data = ExtResource( 5 )
+
+[node name="TitleMenu" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Background" type="ColorRect" parent="."]
+margin_right = 400.0
+margin_bottom = 600.0
+color = Color( 0.141176, 0.462745, 0.341176, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="GameTitle" type="Label" parent="."]
+margin_left = 63.9533
+margin_top = 124.865
+margin_right = 314.953
+margin_bottom = 232.865
+custom_fonts/font = SubResource( 1 )
+custom_colors/font_color = Color( 0.596078, 0.858824, 0.494118, 1 )
+text = "Chicken
+  Walk"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LeftPanel" type="Panel" parent="."]
+margin_top = 484.695
+margin_right = 169.0
+margin_bottom = 599.695
+rect_pivot_offset = Vector2( 0, -58.8071 )
+custom_styles/panel = SubResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="PanelHeader" type="Label" parent="LeftPanel"]
+margin_left = 8.03151
+margin_top = 5.5874
+margin_right = 140.032
+margin_bottom = 25.5874
+custom_fonts/font = SubResource( 3 )
+custom_colors/font_color = Color( 0.831373, 0.956863, 0.701961, 1 )
+text = "Useful Keys:"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="EButton" type="TextureRect" parent="LeftPanel"]
+margin_top = 17.6569
+margin_right = 45.0
+margin_bottom = 62.6569
+texture = ExtResource( 3 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RButton" type="TextureRect" parent="LeftPanel"]
+margin_top = 43.8856
+margin_right = 45.0
+margin_bottom = 88.8856
+texture = ExtResource( 2 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="EscButton" type="TextureRect" parent="LeftPanel"]
+margin_left = 4.87488
+margin_top = 70.3337
+margin_right = 49.8749
+margin_bottom = 115.334
+texture = ExtResource( 4 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="= Interact" type="Label" parent="LeftPanel"]
+margin_left = 45.0
+margin_top = 25.5874
+margin_right = 127.0
+margin_bottom = 50.5874
+custom_fonts/font = SubResource( 4 )
+text = "= Interact"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="= Restart" type="Label" parent="LeftPanel"]
+margin_left = 45.0
+margin_top = 55.0
+margin_right = 127.0
+margin_bottom = 80.0
+custom_fonts/font = SubResource( 4 )
+text = "= Restart"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="= Quit game" type="Label" parent="LeftPanel"]
+margin_left = 45.0
+margin_top = 80.0
+margin_right = 146.0
+margin_bottom = 105.0
+custom_fonts/font = SubResource( 4 )
+text = "= Quit game"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="video at 15 mins" type="Node" parent="."]

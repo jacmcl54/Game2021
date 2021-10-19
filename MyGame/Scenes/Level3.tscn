@@ -18,7 +18,7 @@
 [sub_resource type="SegmentShape2D" id=1]
 b = Vector2( -0.03125, 599.147 )
 
-[node name="Node" type="Node"]
+[node name="Level3" type="Node"]
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
 
@@ -54,7 +54,7 @@ motion_scale = Vector2( 0.75, 1 )
 motion_mirroring = Vector2( 250, 0 )
 
 [node name="Sprite" type="Sprite" parent="ParallaxBackground/ParallaxLayer4"]
-position = Vector2( 128.105, 275.539 )
+position = Vector2( 128.105, 274.832 )
 scale = Vector2( 3.15382, 3.15382 )
 texture = ExtResource( 4 )
 
@@ -101,17 +101,12 @@ dialogue_file = "res://Scripts/Lvl3info.json"
 [node name="Coin1" parent="Coins" groups=[
 "Global",
 ] instance=ExtResource( 11 )]
-position = Vector2( 190.15, 186.904 )
+position = Vector2( 244.597, 454.19 )
 
 [node name="Coin2" parent="Coins" groups=[
 "Global",
 ] instance=ExtResource( 11 )]
-position = Vector2( 215.954, 187.877 )
-
-[node name="Coin3" parent="Coins" groups=[
-"Global",
-] instance=ExtResource( 11 )]
-position = Vector2( 250.945, 190.278 )
+position = Vector2( 306.823, 445.705 )
 
 [node name="Chicken" parent="." instance=ExtResource( 9 )]
 position = Vector2( 49.1007, 390.66 )
@@ -155,3 +150,5 @@ collision_mask = 17
 
 [connection signal="BoxActive" from="InstructionDialogue/DialoguePlayer" to="CoinHUD" method="_on_BoxActive"]
 [connection signal="BoxFinished" from="InstructionDialogue/DialoguePlayer" to="CoinHUD" method="_on_BoxFinished"]
+[connection signal="coin_collected" from="Coins/Coin1" to="CoinHUD" method="_on_coin_collected"]
+[connection signal="coin_collected" from="Coins/Coin2" to="CoinHUD" method="_on_coin_collected"]

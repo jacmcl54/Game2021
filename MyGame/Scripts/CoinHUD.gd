@@ -17,7 +17,7 @@ func _physics_process(delta):
 		if coins == 3:
 			yield(get_tree().create_timer(0.5), "timeout")
 			get_tree().change_scene("res://Scenes/Level3.tscn")
-	if get_tree().current_scene.name == "Level3":
+	if get_tree().current_scene.name == "res://Scenes/Level3.tscn":
 		OS.set_window_title("MyGame - Level 3")
 		if coins == 3:
 			yield(get_tree().create_timer(0.5), "timeout")
