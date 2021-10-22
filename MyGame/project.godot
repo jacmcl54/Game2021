@@ -15,6 +15,7 @@ _global_script_class_icons={
 [application]
 
 config/name="MyGame"
+run/main_scene="res://Scenes/TitleMenu.tscn"
 
 [display]
 
@@ -115,7 +116,3 @@ dialogue_interact={
 2d_physics/layer_4="item"
 2d_physics/layer_5="enemy"
 2d_physics/layer_7="fireball"
-
-[rendering]
-
-environment/default_environment="res://default_env.tres"

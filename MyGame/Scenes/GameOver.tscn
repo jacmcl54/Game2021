@@ -1,0 +1,36 @@
+[gd_scene format=2]
+
+[node name="GameOver" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 400.0
+margin_bottom = 600.0
+color = Color( 0.156863, 0.054902, 0.054902, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+margin_top = 80.0
+margin_right = 400.0
+margin_bottom = 240.0
+text = "etfrgr"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="."]
+margin_left = 112.0
+margin_top = 360.0
+margin_right = 296.0
+margin_bottom = 424.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="video at 25mins" type="Node" parent="."]

@@ -1,7 +1,6 @@
 [gd_resource type="TileSet" load_steps=2 format=2]
 
 [sub_resource type="StreamTexture" id=1]
-load_path = "res://.import/16-bit-spike-Sheet.png-1d3a46b187721051cd8682ae5fdd51d0.stex"
 
 [resource]
 0/name = "Sprite"
