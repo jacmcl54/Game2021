@@ -1,4 +1,4 @@
-[gd_scene load_steps=30 format=2]
+[gd_scene load_steps=31 format=2]
 
 [ext_resource path="res://Assets/Fonts/KiriFont.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://Assets/UI/Rkey.png" type="Texture" id=2]
@@ -16,6 +16,7 @@
 [ext_resource path="res://Assets/Chick_LBrown.png" type="Texture" id=14]
 [ext_resource path="res://Assets/Fonts/BalsamiqSans-Bold.ttf" type="DynamicFontData" id=15]
 [ext_resource path="res://Scripts/PlayButton.gd" type="Script" id=16]
+[ext_resource path="res://Assets/Sounds/Tobu - Candyland [NCS Release].mp3" type="AudioStream" id=17]
 
 [sub_resource type="DynamicFont" id=1]
 size = 50
@@ -41,15 +42,15 @@ corner_radius_top_left = 10
 
 [sub_resource type="SpriteFrames" id=6]
 animations = [ {
-"frames": [ ExtResource( 7 ), ExtResource( 8 ), ExtResource( 10 ), ExtResource( 12 ), ExtResource( 9 ) ],
-"loop": true,
-"name": "walk",
-"speed": 5.0
-}, {
 "frames": [ ExtResource( 11 ) ],
 "loop": true,
 "name": "dying",
 "speed": 3.0
+}, {
+"frames": [ ExtResource( 7 ), ExtResource( 8 ), ExtResource( 10 ), ExtResource( 12 ), ExtResource( 9 ) ],
+"loop": true,
+"name": "walk",
+"speed": 5.0
 } ]
 
 [sub_resource type="StyleBoxFlat" id=7]
@@ -294,7 +295,6 @@ position = Vector2( 24, 120.352 )
 scale = Vector2( 0.203125, 0.190814 )
 frames = SubResource( 6 )
 animation = "walk"
-frame = 3
 playing = true
 
 [node name="Watch out" type="Label" parent="RightPanel"]
@@ -390,5 +390,10 @@ script = ExtResource( 16 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="BackgroundMusic" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 17 )
+pitch_scale = 1.5
+autoplay = true
 
 [connection signal="pressed" from="PlayButton" to="PlayButton" method="_on_PlayButton_pressed"]

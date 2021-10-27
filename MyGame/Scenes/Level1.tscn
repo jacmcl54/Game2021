@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=2]
+[gd_scene load_steps=17 format=2]
 
 [ext_resource path="res://Scripts/CloudLayer.gd" type="Script" id=1]
 [ext_resource path="res://Assets/Tilesets/Forest Tileset/BG/1.png" type="Texture" id=2]
@@ -14,6 +14,7 @@
 [ext_resource path="res://Assets/Tilesets/OneWayForest.tres" type="TileSet" id=12]
 [ext_resource path="res://Assets/Tilesets/nonCollisionForest.tres" type="TileSet" id=13]
 [ext_resource path="res://Assets/Tilesets/SolidForest.tres" type="TileSet" id=14]
+[ext_resource path="res://Assets/Sounds/Whistle song.mp3" type="AudioStream" id=15]
 
 [sub_resource type="SegmentShape2D" id=1]
 b = Vector2( -0.03125, 599.147 )
@@ -170,6 +171,11 @@ direction = 1
 [node name="Enemy3" parent="Enemies" instance=ExtResource( 10 )]
 position = Vector2( 2184, 504 )
 direction = 1
+
+[node name="BackgroundMusic" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 15 )
+pitch_scale = 1.5
+autoplay = true
 
 [connection signal="BoxActive" from="InstructionDialogue/DialoguePlayer" to="CoinHUD" method="_on_BoxActive"]
 [connection signal="BoxFinished" from="InstructionDialogue/DialoguePlayer" to="CoinHUD" method="_on_BoxFinished"]
