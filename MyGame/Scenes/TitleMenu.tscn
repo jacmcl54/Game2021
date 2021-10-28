@@ -42,15 +42,15 @@ corner_radius_top_left = 10
 
 [sub_resource type="SpriteFrames" id=6]
 animations = [ {
-"frames": [ ExtResource( 11 ) ],
-"loop": true,
-"name": "dying",
-"speed": 3.0
-}, {
 "frames": [ ExtResource( 7 ), ExtResource( 8 ), ExtResource( 10 ), ExtResource( 12 ), ExtResource( 9 ) ],
 "loop": true,
 "name": "walk",
 "speed": 5.0
+}, {
+"frames": [ ExtResource( 11 ) ],
+"loop": true,
+"name": "dying",
+"speed": 3.0
 } ]
 
 [sub_resource type="StyleBoxFlat" id=7]
@@ -157,6 +157,10 @@ margin_right = 323.0
 margin_bottom = 225.0
 custom_fonts/font = SubResource( 1 )
 custom_colors/font_color = Color( 0.596078, 0.858824, 0.494118, 1 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+custom_constants/shadow_offset_x = 3
+custom_constants/line_spacing = 2
+custom_constants/shadow_offset_y = 7
 text = "Chicken
 Walk"
 align = 1
@@ -295,6 +299,7 @@ position = Vector2( 24, 120.352 )
 scale = Vector2( 0.203125, 0.190814 )
 frames = SubResource( 6 )
 animation = "walk"
+frame = 3
 playing = true
 
 [node name="Watch out" type="Label" parent="RightPanel"]
@@ -393,7 +398,7 @@ __meta__ = {
 
 [node name="BackgroundMusic" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 17 )
-pitch_scale = 1.5
+pitch_scale = 1.2
 autoplay = true
 
 [connection signal="pressed" from="PlayButton" to="PlayButton" method="_on_PlayButton_pressed"]

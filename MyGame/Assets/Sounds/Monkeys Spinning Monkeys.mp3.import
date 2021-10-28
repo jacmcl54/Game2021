@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Monkeys Spinning Monkeys.mp3-f66e6ab9621cb89928553c9146145602.mp3str"
+
+[deps]
+
+source_file="res://Assets/Sounds/Monkeys Spinning Monkeys.mp3"
+dest_files=[ "res://.import/Monkeys Spinning Monkeys.mp3-f66e6ab9621cb89928553c9146145602.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
