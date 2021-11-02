@@ -174,7 +174,8 @@ direction = 1
 
 [node name="BackgroundMusic" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 15 )
-autoplay = true
+volume_db = -10.0
+pitch_scale = 0.75
 
 [connection signal="BoxActive" from="InstructionDialogue/DialoguePlayer" to="CoinHUD" method="_on_BoxActive"]
 [connection signal="BoxFinished" from="InstructionDialogue/DialoguePlayer" to="CoinHUD" method="_on_BoxFinished"]

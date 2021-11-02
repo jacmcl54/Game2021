@@ -151,6 +151,8 @@ collision_mask = 17
 
 [node name="BackgroundMusic" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 15 )
+volume_db = -10.0
+pitch_scale = 0.9
 autoplay = true
 
 [connection signal="BoxActive" from="InstructionDialogue/DialoguePlayer" to="CoinHUD" method="_on_BoxActive"]

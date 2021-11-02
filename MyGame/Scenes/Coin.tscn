@@ -1,9 +1,10 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://Assets/Coin_Gems/01coin.png" type="Texture" id=1]
 [ext_resource path="res://Animations/CoinIdle.tres" type="Animation" id=2]
 [ext_resource path="res://Animations/CoinTaken.tres" type="Animation" id=3]
 [ext_resource path="res://Scripts/Coin.gd" type="Script" id=4]
+[ext_resource path="res://Assets/Sounds/CoinCollectSound.mp3" type="AudioStream" id=5]
 
 [sub_resource type="CircleShape2D" id=1]
 
@@ -24,6 +25,9 @@ shape = SubResource( 1 )
 autoplay = "CoinIdle"
 anims/CoinIdle = ExtResource( 2 )
 anims/CoinTaken = ExtResource( 3 )
+
+[node name="CoinSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 5 )
 
 [connection signal="body_entered" from="." to="." method="_on_Coin_body_entered"]
 [connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_AnimationPlayer_animation_finished"]
