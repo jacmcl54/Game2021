@@ -1,12 +1,15 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://Assets/Fonts/KiriFont.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://Assets/Fonts/Sniglet-Regular.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://Scripts/QuitButton.gd" type="Script" id=3]
+[ext_resource path="res://Scenes/RestartButton.gd" type="Script" id=4]
 
 [sub_resource type="DynamicFont" id=1]
 size = 65
 outline_size = 2
 outline_color = Color( 0.901961, 0.729412, 0.137255, 1 )
+use_filter = true
 font_data = ExtResource( 1 )
 
 [sub_resource type="DynamicFont" id=2]
@@ -27,7 +30,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="ColorRect" type="ColorRect" parent="."]
+[node name="Background" type="ColorRect" parent="."]
 margin_right = 400.0
 margin_bottom = 600.0
 color = Color( 0.156863, 0.054902, 0.054902, 1 )
@@ -36,10 +39,11 @@ __meta__ = {
 }
 
 [node name="Label" type="Label" parent="."]
-margin_left = 80.0
-margin_top = 88.0
-margin_right = 333.0
-margin_bottom = 293.0
+margin_left = 32.0
+margin_top = 136.0
+margin_right = 337.0
+margin_bottom = 270.0
+rect_rotation = -9.83597
 custom_fonts/font = SubResource( 1 )
 custom_colors/font_color = Color( 0.27451, 0.317647, 0.556863, 1 )
 custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
@@ -47,34 +51,46 @@ custom_constants/shadow_offset_x = 3
 custom_constants/line_spacing = 2
 custom_constants/shadow_offset_y = 1
 text = "Game 
-Over!"
+  Over!"
 align = 1
 valign = 1
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Quit" type="Button" parent="."]
-margin_top = 448.0
-margin_right = 200.0
-margin_bottom = 488.0
+[node name="QuitButton" type="Button" parent="."]
+margin_left = 96.0
+margin_top = 424.0
+margin_right = 296.0
+margin_bottom = 464.0
 custom_fonts/font = SubResource( 2 )
+custom_colors/font_color = Color( 0.968627, 0.74902, 0.698039, 1 )
+custom_colors/font_color_hover = Color( 0.768627, 0.329412, 0.0941176, 1 )
+custom_colors/font_color_pressed = Color( 0.721569, 0.670588, 0.137255, 1 )
 text = "QUIT GAME"
 flat = true
+script = ExtResource( 3 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Restart" type="Button" parent="."]
-margin_left = 200.0
-margin_top = 448.0
-margin_right = 400.0
-margin_bottom = 488.0
+[node name="RestartButton" type="Button" parent="."]
+margin_left = 96.0
+margin_top = 376.0
+margin_right = 296.0
+margin_bottom = 416.0
 custom_fonts/font = SubResource( 4 )
-text = "RESTART"
+custom_colors/font_color = Color( 0.698039, 0.72549, 0.968627, 1 )
+custom_colors/font_color_hover = Color( 0.0941176, 0.533333, 0.768627, 1 )
+custom_colors/font_color_pressed = Color( 0.137255, 0.160784, 0.721569, 1 )
+text = "MAIN MENU"
 flat = true
+script = ExtResource( 4 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="video at 25mins" type="Node" parent="."]
+
+[connection signal="pressed" from="QuitButton" to="QuitButton" method="_on_QuitButton_pressed"]
+[connection signal="pressed" from="RestartButton" to="RestartButton" method="_on_RestartButton_pressed"]

@@ -22,3 +22,8 @@ func _physics_process(delta):
 	velocity.x = 50 * direction
 	
 	velocity = move_and_slide(velocity, Vector2.UP)
+	
+func _on_KinematicBody2D_body_entered(body):
+	if body.name == ("Chicken"):
+		yield(get_tree().create_timer(0.5), "timeout")
+		get_tree().change_scene("res://Scenes/GameOver.tscn")
