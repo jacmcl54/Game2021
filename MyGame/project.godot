@@ -15,7 +15,7 @@ _global_script_class_icons={
 [application]
 
 config/name="MyGame"
-run/main_scene="res://Scenes/TitleMenu.tscn"
+run/main_scene="res://Scenes/TitleScreen.tscn"
 
 [display]
 
