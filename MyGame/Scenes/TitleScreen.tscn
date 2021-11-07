@@ -3,7 +3,6 @@
 [ext_resource path="res://Assets/Fonts/BalsamiqSans-Bold.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://Assets/Fonts/KiriFont.ttf" type="DynamicFontData" id=2]
 [ext_resource path="res://Assets/Fonts/Sniglet-Regular.ttf" type="DynamicFontData" id=3]
-[ext_resource path="res://Scripts/PlayButton.gd" type="Script" id=4]
 [ext_resource path="res://Assets/Chick_LBrown.png" type="Texture" id=5]
 [ext_resource path="res://Assets/Sprites/enemies sprites/Pixel Troll Asset/sprite_1.png" type="Texture" id=6]
 [ext_resource path="res://Assets/UI/Rkey.png" type="Texture" id=7]
@@ -17,6 +16,7 @@
 [ext_resource path="res://Assets/UI/Esckey.png" type="Texture" id=15]
 [ext_resource path="res://Scenes/Coin.tscn" type="PackedScene" id=16]
 [ext_resource path="res://Scenes/Spikes.tscn" type="PackedScene" id=17]
+[ext_resource path="res://Scripts/TitleScreen.gd" type="Script" id=18]
 
 [sub_resource type="DynamicFont" id=1]
 size = 50
@@ -43,15 +43,15 @@ corner_radius_top_left = 10
 
 [sub_resource type="SpriteFrames" id=6]
 animations = [ {
-"frames": [ ExtResource( 13 ) ],
-"loop": true,
-"name": "dying",
-"speed": 3.0
-}, {
 "frames": [ ExtResource( 14 ), ExtResource( 6 ), ExtResource( 8 ), ExtResource( 10 ), ExtResource( 9 ) ],
 "loop": true,
 "name": "walk",
 "speed": 5.0
+}, {
+"frames": [ ExtResource( 13 ) ],
+"loop": true,
+"name": "dying",
+"speed": 3.0
 } ]
 
 [sub_resource type="StyleBoxFlat" id=7]
@@ -139,6 +139,7 @@ font_data = ExtResource( 2 )
 [node name="TitleMenu" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
+script = ExtResource( 18 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -300,7 +301,7 @@ position = Vector2( 24, 120.352 )
 scale = Vector2( 0.203125, 0.190814 )
 frames = SubResource( 6 )
 animation = "walk"
-frame = 3
+frame = 4
 playing = true
 
 [node name="Watch out" type="Label" parent="RightPanel"]
@@ -391,7 +392,6 @@ custom_colors/font_color_hover = Color( 0.74902, 0.686275, 0.176471, 1 )
 custom_colors/font_color_pressed = Color( 0.572549, 0.666667, 0.0666667, 1 )
 text = "PLAY GAME"
 flat = true
-script = ExtResource( 4 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -404,4 +404,5 @@ __meta__ = {
 "_editor_description_": ""
 }
 
+[connection signal="pressed" from="PlayButton" to="." method="_on_PlayButton_pressed"]
 [connection signal="pressed" from="PlayButton" to="PlayButton" method="_on_PlayButton_pressed"]

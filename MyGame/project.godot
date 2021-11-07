@@ -20,8 +20,6 @@ run/main_scene="res://Scenes/TitleScreen.tscn"
 [display]
 
 window/size/width=400
-window/size/test_width=400
-window/size/test_height=600
 
 [input]
 

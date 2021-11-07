@@ -22,6 +22,7 @@ b = Vector2( -0.03125, 599.147 )
 [node name="Level1" type="Node"]
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+scroll_limit_end = Vector2( 1025, 0 )
 
 [node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
 motion_mirroring = Vector2( 250, 0 )
@@ -32,7 +33,6 @@ scale = Vector2( 3.15382, 3.17089 )
 texture = ExtResource( 2 )
 
 [node name="ParallaxLayer2" type="ParallaxLayer" parent="ParallaxBackground"]
-motion_scale = Vector2( 0, 1 )
 motion_mirroring = Vector2( 250, 0 )
 script = ExtResource( 1 )
 
@@ -106,11 +106,6 @@ dialogue_file = "res://Scripts/Lvl1info.json"
 
 [node name="Coins" type="Node2D" parent="."]
 
-[node name="Coin1" parent="Coins" groups=[
-"Global",
-] instance=ExtResource( 9 )]
-position = Vector2( 256, 296 )
-
 [node name="Coin4" parent="Coins" groups=[
 "Global",
 ] instance=ExtResource( 9 )]
@@ -120,16 +115,6 @@ position = Vector2( 1788.64, 303.143 )
 "Global",
 ] instance=ExtResource( 9 )]
 position = Vector2( 737.453, 107.266 )
-
-[node name="Coin3" parent="Coins" groups=[
-"Global",
-] instance=ExtResource( 9 )]
-position = Vector2( 1598.25, 304.436 )
-
-[node name="Coin5" parent="Coins" groups=[
-"Global",
-] instance=ExtResource( 9 )]
-position = Vector2( 1985.89, 303.143 )
 
 [node name="Coin6" parent="Coins" groups=[
 "Global",
@@ -180,9 +165,6 @@ autoplay = true
 
 [connection signal="BoxActive" from="InstructionDialogue/DialoguePlayer" to="CoinHUD" method="_on_BoxActive"]
 [connection signal="BoxFinished" from="InstructionDialogue/DialoguePlayer" to="CoinHUD" method="_on_BoxFinished"]
-[connection signal="coin_collected" from="Coins/Coin1" to="CoinHUD" method="_on_coin_collected"]
 [connection signal="coin_collected" from="Coins/Coin4" to="CoinHUD" method="_on_coin_collected"]
 [connection signal="coin_collected" from="Coins/Coin2" to="CoinHUD" method="_on_coin_collected"]
-[connection signal="coin_collected" from="Coins/Coin3" to="CoinHUD" method="_on_coin_collected"]
-[connection signal="coin_collected" from="Coins/Coin5" to="CoinHUD" method="_on_coin_collected"]
 [connection signal="coin_collected" from="Coins/Coin6" to="CoinHUD" method="_on_coin_collected"]
