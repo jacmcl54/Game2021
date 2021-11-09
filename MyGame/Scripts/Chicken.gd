@@ -10,13 +10,15 @@ const ACCEL = 20
 var coins = 0
 var motion = Vector2()
 var facing_right = true
+var quit_game
+var restart_level
 
 func _physics_process(_delta):
-	
+	#SETTING THE FALL SPEED TO GRAVITY
 	motion.y += GRAVITY
 	if motion.y > MAXFALLSPEED:
 		motion.y = MAXFALLSPEED
-	
+	#GETS THE CHICKEN TO FACE THE CORRECT DIRECTION
 	if facing_right == true:
 		$Sprite.scale.x = -1
 	else:
@@ -34,9 +36,9 @@ func _physics_process(_delta):
 		facing_right = false
 		$Sprite/AnimationPlayer.play("Walk")
 	elif Input.is_action_pressed("restart"):
-		get_tree().reload_current_scene()
+		restart_level = get_tree().reload_current_scene()
 	elif Input.is_action_pressed("quit"):
-		get_tree().quit()
+		quit_game = get_tree().quit()
 	else:
 		motion.x = lerp(motion.x,0,0.2)
 		$Sprite/AnimationPlayer.play("Idle")

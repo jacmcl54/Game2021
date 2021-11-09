@@ -1,4 +1,8 @@
 extends Control
 
+var begin_game
+
+#BEGINS THE GAME
 func _on_PlayButton_pressed():
-	get_tree().change_scene("res://Scenes/Level1.tscn")
+	begin_game = get_tree().change_scene("res://Scenes/Level1.tscn")
+	

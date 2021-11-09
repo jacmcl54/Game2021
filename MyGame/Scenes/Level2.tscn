@@ -99,19 +99,13 @@ dialogue_file = "res://Scripts/Lvl2info.json"
 
 [node name="Coins" type="Node2D" parent="."]
 
-[node name="Coin1" parent="Coins" groups=[
-"Global",
-] instance=ExtResource( 8 )]
+[node name="Coin1" parent="Coins" groups=["Global"] instance=ExtResource( 8 )]
 position = Vector2( 380.854, 422.105 )
 
-[node name="Coin2" parent="Coins" groups=[
-"Global",
-] instance=ExtResource( 8 )]
+[node name="Coin2" parent="Coins" groups=["Global"] instance=ExtResource( 8 )]
 position = Vector2( 642.917, 361.629 )
 
-[node name="Coin3" parent="Coins" groups=[
-"Global",
-] instance=ExtResource( 8 )]
+[node name="Coin3" parent="Coins" groups=["Global"] instance=ExtResource( 8 )]
 position = Vector2( 991.509, 326.949 )
 
 [node name="Chicken" parent="." instance=ExtResource( 1 )]

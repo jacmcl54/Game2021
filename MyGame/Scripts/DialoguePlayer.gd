@@ -9,6 +9,7 @@ var is_dialogue_active = false
 signal BoxActive
 signal BoxFinished
 
+#HIDES THE DIALOGUE BOX WHEN THE GAME STARTS
 func _ready():
 	$NinePatchRect.visible = false
 
@@ -18,7 +19,7 @@ func play():
 
 	dialogues = load_dialogue()
 
-#	turn_off_the_player()
+
 	is_dialogue_active = true
 	$NinePatchRect.visible = true
 	emit_signal("BoxActive")

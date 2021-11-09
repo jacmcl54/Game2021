@@ -1,38 +1,47 @@
 extends CanvasLayer
 
 var coins = 0
+var switch_win1
+var switch_win2
+var switch_mainmenu
 
 func _ready():
 	$CoinNumber.text = String(coins)
 
+
+#CHECKS THE AMOUNT OF COINS COLLECTED TO SEE IF PLAYER CAN PROCEED
 func _physics_process(delta):
 	if get_tree().current_scene.name == "Level1":
 		OS.set_window_title("MyGame - Level 1")
 		if coins == 3:
 			yield(get_tree().create_timer(0.5), "timeout")
-			get_tree().change_scene("res://Scenes/Level1Complete.tscn")
+			switch_win1 = get_tree().change_scene("res://Scenes/Level1Complete.tscn")
+			return
 	if get_tree().current_scene.name == "Level2":
 		OS.set_window_title("MyGame - Level 2")
 		if coins == 3:
 			yield(get_tree().create_timer(0.5), "timeout")
-			get_tree().change_scene("res://Scenes/Level3.tscn")
+			switch_win2 = get_tree().change_scene("res://Scenes/Level2Complete.tscn")
+			return
 	if get_tree().current_scene.name == "res://Scenes/Level3.tscn":
 		OS.set_window_title("MyGame - Level 3")
 		if coins == 3:
 			yield(get_tree().create_timer(0.5), "timeout")
-			get_tree().change_scene("res://Scenes/Level1.tscn")
+			switch_mainmenu = get_tree().change_scene("res://Scenes/TitleSceen.tscn")
+			return
 
+#ADDS 1 TO THE COIN COUNTER
 func _on_coin_collected():
 	coins = coins + 1
 	_ready()
 
+#HIDES THE COINHUD WHEN THE 'HOW TO PLAY' DIALOGUE BOX APPEARS
 func _on_BoxActive():
 	$Panel.visible = false
 	$TextureRect.visible = false
 	$x.visible = false
 	$CoinNumber.visible = false
-
-
+#MAKES THE COIN HUD VISIABLE AGAIN AFTER THE DIALOGUE BOX DISSAPEARS
 func _on_BoxFinished():
 	$Panel.visible = true
 	$TextureRect.visible = true

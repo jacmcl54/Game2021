@@ -2,6 +2,7 @@ extends Area2D
 
 signal coin_collected
 
+#SENDS A SIGNAL TO THE COIN HUD AND PLAYS THE COLLECT SOUND
 func _on_Coin_body_entered(body):
 	$AnimationPlayer.play("CoinTaken")
 	emit_signal("coin_collected")

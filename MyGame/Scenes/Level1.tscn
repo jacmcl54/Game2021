@@ -22,7 +22,6 @@ b = Vector2( -0.03125, 599.147 )
 [node name="Level1" type="Node"]
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
-scroll_limit_end = Vector2( 1025, 0 )
 
 [node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
 motion_mirroring = Vector2( 250, 0 )
@@ -106,19 +105,13 @@ dialogue_file = "res://Scripts/Lvl1info.json"
 
 [node name="Coins" type="Node2D" parent="."]
 
-[node name="Coin4" parent="Coins" groups=[
-"Global",
-] instance=ExtResource( 9 )]
-position = Vector2( 1788.64, 303.143 )
+[node name="Coin4" parent="Coins" groups=["Global"] instance=ExtResource( 9 )]
+position = Vector2( 1984, 304 )
 
-[node name="Coin2" parent="Coins" groups=[
-"Global",
-] instance=ExtResource( 9 )]
+[node name="Coin2" parent="Coins" groups=["Global"] instance=ExtResource( 9 )]
 position = Vector2( 737.453, 107.266 )
 
-[node name="Coin6" parent="Coins" groups=[
-"Global",
-] instance=ExtResource( 9 )]
+[node name="Coin6" parent="Coins" groups=["Global"] instance=ExtResource( 9 )]
 position = Vector2( 2422.48, 72.0683 )
 
 [node name="Chicken" parent="." instance=ExtResource( 6 )]
