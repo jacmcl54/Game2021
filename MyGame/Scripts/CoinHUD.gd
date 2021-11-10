@@ -3,6 +3,7 @@ extends CanvasLayer
 var coins = 0
 var switch_win1
 var switch_win2
+var switch_win3
 var switch_mainmenu
 
 func _ready():
@@ -17,17 +18,17 @@ func _physics_process(delta):
 			yield(get_tree().create_timer(0.5), "timeout")
 			switch_win1 = get_tree().change_scene("res://Scenes/Level1Complete.tscn")
 			return
-	if get_tree().current_scene.name == "Level2":
+	elif get_tree().current_scene.name == "Level2":
 		OS.set_window_title("MyGame - Level 2")
 		if coins == 3:
 			yield(get_tree().create_timer(0.5), "timeout")
 			switch_win2 = get_tree().change_scene("res://Scenes/Level2Complete.tscn")
 			return
-	if get_tree().current_scene.name == "res://Scenes/Level3.tscn":
+	elif get_tree().current_scene.name == "Level3":
 		OS.set_window_title("MyGame - Level 3")
-		if coins == 3:
+		if coins >= 3:
 			yield(get_tree().create_timer(0.5), "timeout")
-			switch_mainmenu = get_tree().change_scene("res://Scenes/TitleSceen.tscn")
+			switch_win3 = get_tree().change_scene("res://Scenes/Level3Complete.tscn")
 			return
 
 #ADDS 1 TO THE COIN COUNTER

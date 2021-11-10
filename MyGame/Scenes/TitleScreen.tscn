@@ -3,7 +3,7 @@
 [ext_resource path="res://Assets/Fonts/BalsamiqSans-Bold.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://Assets/Fonts/KiriFont.ttf" type="DynamicFontData" id=2]
 [ext_resource path="res://Assets/Fonts/Sniglet-Regular.ttf" type="DynamicFontData" id=3]
-[ext_resource path="res://Assets/Chick_LBrown.png" type="Texture" id=5]
+[ext_resource path="res://Assets/Sprites/Chicken/Chick_LBrown.png" type="Texture" id=4]
 [ext_resource path="res://Assets/Sprites/enemies sprites/Pixel Troll Asset/sprite_1.png" type="Texture" id=6]
 [ext_resource path="res://Assets/UI/Rkey.png" type="Texture" id=7]
 [ext_resource path="res://Assets/Sprites/enemies sprites/Pixel Troll Asset/sprite_2.png" type="Texture" id=8]
@@ -43,15 +43,15 @@ corner_radius_top_left = 10
 
 [sub_resource type="SpriteFrames" id=6]
 animations = [ {
-"frames": [ ExtResource( 14 ), ExtResource( 6 ), ExtResource( 8 ), ExtResource( 10 ), ExtResource( 9 ) ],
-"loop": true,
-"name": "walk",
-"speed": 5.0
-}, {
 "frames": [ ExtResource( 13 ) ],
 "loop": true,
 "name": "dying",
 "speed": 3.0
+}, {
+"frames": [ ExtResource( 14 ), ExtResource( 6 ), ExtResource( 8 ), ExtResource( 10 ), ExtResource( 9 ) ],
+"loop": true,
+"name": "walk",
+"speed": 5.0
 } ]
 
 [sub_resource type="StyleBoxFlat" id=7]
@@ -299,7 +299,6 @@ position = Vector2( 24, 120.352 )
 scale = Vector2( 0.203125, 0.190814 )
 frames = SubResource( 6 )
 animation = "walk"
-frame = 1
 playing = true
 
 [node name="Watch out" type="Label" parent="RightPanel"]
@@ -356,9 +355,10 @@ __meta__ = {
 [node name="Sprite" type="Sprite" parent="MidPanel"]
 position = Vector2( 150.089, 51.9106 )
 scale = Vector2( 1.61941, 1.61941 )
-texture = ExtResource( 5 )
+texture = ExtResource( 4 )
 hframes = 4
 vframes = 4
+frame = 8
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="MidPanel/Sprite"]
 autoplay = "Jump"
@@ -400,6 +400,16 @@ pitch_scale = 0.75
 autoplay = true
 __meta__ = {
 "_editor_description_": ""
+}
+
+[node name="Label" type="Label" parent="."]
+visible = false
+margin_right = 40.0
+margin_bottom = 14.0
+text = "Disclaimer:
+Game is not complete"
+__meta__ = {
+"_edit_use_anchors_": false
 }
 
 [connection signal="pressed" from="PlayButton" to="." method="_on_PlayButton_pressed"]

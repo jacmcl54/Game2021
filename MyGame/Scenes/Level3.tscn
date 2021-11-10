@@ -99,15 +99,14 @@ dialogue_file = "res://Scripts/Lvl3info.json"
 
 [node name="Coins" type="Node2D" parent="."]
 
-[node name="Coin1" parent="Coins" groups=[
-"Global",
-] instance=ExtResource( 11 )]
-position = Vector2( 244.597, 454.19 )
+[node name="Coin1" parent="Coins" groups=["Global"] instance=ExtResource( 11 )]
+position = Vector2( 184.893, 500.439 )
 
-[node name="Coin2" parent="Coins" groups=[
-"Global",
-] instance=ExtResource( 11 )]
-position = Vector2( 306.823, 445.705 )
+[node name="Coin2" parent="Coins" groups=["Global"] instance=ExtResource( 11 )]
+position = Vector2( 302.619, 499.522 )
+
+[node name="Coin3" parent="Coins" groups=["Global"] instance=ExtResource( 11 )]
+position = Vector2( 252.203, 498.948 )
 
 [node name="Chicken" parent="." instance=ExtResource( 9 )]
 position = Vector2( 49.1007, 390.66 )
@@ -152,10 +151,10 @@ collision_mask = 17
 [node name="BackgroundMusic" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 15 )
 volume_db = -10.0
-pitch_scale = 0.9
 autoplay = true
 
 [connection signal="BoxActive" from="InstructionDialogue/DialoguePlayer" to="CoinHUD" method="_on_BoxActive"]
 [connection signal="BoxFinished" from="InstructionDialogue/DialoguePlayer" to="CoinHUD" method="_on_BoxFinished"]
 [connection signal="coin_collected" from="Coins/Coin1" to="CoinHUD" method="_on_coin_collected"]
 [connection signal="coin_collected" from="Coins/Coin2" to="CoinHUD" method="_on_coin_collected"]
+[connection signal="coin_collected" from="Coins/Coin3" to="CoinHUD" method="_on_coin_collected"]

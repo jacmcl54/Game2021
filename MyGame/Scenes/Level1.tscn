@@ -97,7 +97,7 @@ position = Vector2( 2560, -1.99716 )
 shape = SubResource( 1 )
 
 [node name="InstructionDialogue" parent="." instance=ExtResource( 8 )]
-position = Vector2( 136, 336 )
+position = Vector2( 92.009, 330.673 )
 scale = Vector2( 0.68, 0.68 )
 
 [node name="DialoguePlayer" parent="InstructionDialogue" instance=ExtResource( 7 )]
@@ -153,7 +153,6 @@ direction = 1
 [node name="BackgroundMusic" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 15 )
 volume_db = -10.0
-pitch_scale = 0.75
 autoplay = true
 
 [connection signal="BoxActive" from="InstructionDialogue/DialoguePlayer" to="CoinHUD" method="_on_BoxActive"]

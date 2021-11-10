@@ -1,7 +1,7 @@
 [gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://Animations/Walk.tres" type="Animation" id=1]
-[ext_resource path="res://Assets/Chick_LBrown.png" type="Texture" id=2]
+[ext_resource path="res://Assets/Sprites/Chicken/Chick_LBrown.png" type="Texture" id=2]
 [ext_resource path="res://Scripts/Chicken.gd" type="Script" id=3]
 [ext_resource path="res://Animations/Fall.tres" type="Animation" id=4]
 [ext_resource path="res://Animations/Idle.tres" type="Animation" id=5]
