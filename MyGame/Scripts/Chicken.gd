@@ -1,5 +1,6 @@
 extends KinematicBody2D
 
+#SETS THE DESIRED VELOCITIES AND ACCELERATION FOR THE CHCIKEN, HAS BEEN ADJUSTED TO WORK BEST FOR THIS GAME.
 const UP = Vector2(0, -1)
 const GRAVITY = 15
 const MAXFALLSPEED = 350
@@ -35,6 +36,7 @@ func _physics_process(_delta):
 		motion.x -= ACCEL
 		facing_right = false
 		$Sprite/AnimationPlayer.play("Walk")
+	#LETS THE PLAYER QUIT OR RESTART THE GAME WHENEVER THEY WANT
 	elif Input.is_action_pressed("restart"):
 		restart_level = get_tree().reload_current_scene()
 	elif Input.is_action_pressed("quit"):
